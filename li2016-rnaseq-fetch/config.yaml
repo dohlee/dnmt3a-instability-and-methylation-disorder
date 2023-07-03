@@ -1,0 +1,6 @@
+manifest: 'manifest.csv'
+data_dir: 'files'
+result_dir: ''
+
+threads:
+    fasterq-dump: 8

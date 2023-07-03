@@ -1,0 +1,92 @@
+import pandas as pd
+from pathlib import Path
+
+configfile: 'config.yaml'
+
+include: 'rules/trim-galore.smk'
+include: 'rules/bismark.smk'
+include: 'rules/methyldackel.smk'
+include: 'rules/sambamba.smk'
+
+onerror: shell('push DBGAP-ERRBS-01 ERROR')
+onsuccess: shell('push DBGAP-ERRBS-01 OK')
+
+DB_DIR = Path('/data/project/SNUH_DNMT3A/note2/results/DB-01')
+DB_PATHS = [
+    DB_DIR / 'gencode.v32.exon.bed.bgz',
+    DB_DIR / 'gencode.v32.promoter.bed.bgz',
+    DB_DIR / 'gencode.v32.genebody.bed.bgz',
+    DB_DIR / 'hg38.cgi.bed.bgz',
+    DB_DIR / 'hg38.cgi_shores.bed.bgz',
+    DB_DIR / 'hg38.cgi_shelves.bed.bgz',
+    '/data/project/SNUH_DNMT3A/result/CHIP-01/04_slopped/K562_EZH2_vs_K562_input_summits_slopped.bed.gz',
+    '/data/project/SNUH_DNMT3A/result/CHIP-01/04_slopped/K562_SUZ12_vs_K562_input_summits_slopped.bed.gz',
+    '/data/project/SNUH_DNMT3A/manifest/methylation_canyons_hg38.sorted.bed.bgz',
+    '/data/project/SNUH_DNMT3A/manifest/methylation_cliffs_hg38.sorted.bed.bgz',
+]
+DB_NAMES = [
+    'exon',
+    'promoter',
+    'genebody',
+    'cgi',
+    'cgi_shore',
+    'cgi_shelf',
+    'K562_EZH2',
+    'K562_SUZ12',
+    'methylation_canyon',
+    'methylation_cliff',
+]
+
+manifest = pd.read_csv(config['manifest'])
+DATA_DIR = Path(config['data_dir'])
+RESULT_DIR = Path(config['result_dir'])
+
+SE_SAMPLES = manifest[manifest.library_layout == 'single'].name.values
+PE_SAMPLES = manifest[manifest.library_layout == 'paired'].name.values
+
+FLAGSTATS = expand(str(RESULT_DIR / '02_bismark' / '{sample}' / '{sample}.bismark.sorted.bam.flagstat'), sample=SE_SAMPLES)
+
+BEDGRAPHS = expand(str(RESULT_DIR / '03_methyldackel' / '{sample}_CpG.bedGraph'), sample=SE_SAMPLES)
+METHYLKITS = expand(str(RESULT_DIR / '03_methyldackel' / '{sample}_CpG.methylKit'), sample=SE_SAMPLES)
+
+SUMMARIZED = expand(str(RESULT_DIR / '04_summarized' / '{sample}_summarized.csv'), sample=SE_SAMPLES)
+
+ANNOTATED = expand(str(RESULT_DIR / '05_annotated' / '{sample}_annotated.csv'), sample=SE_SAMPLES)
+
+ALL = []
+ALL.append(FLAGSTATS)
+ALL.append(BEDGRAPHS)
+ALL.append(METHYLKITS)
+ALL.append(ANNOTATED)
+
+rule all:
+    input: ALL
+
+rule summarize_rrbs:
+    input:
+        bam=RESULT_DIR / '02_bismark' / '{sample}' / '{sample}.bismark.sorted.bam',
+        bai=RESULT_DIR / '02_bismark' / '{sample}' / '{sample}.bismark.sorted.bam.bai',
+    output:
+        RESULT_DIR / '04_summarized' / '{sample}_summarized.csv'
+    threads: 1
+    shell:
+        'python scripts/summarize.py -i {input.bam} -o {output}'
+
+rule annotate:
+    input:
+        RESULT_DIR / '04_summarized' / '{sample}_summarized.csv'
+    output:
+        RESULT_DIR / '05_annotated' / '{sample}_annotated.csv'
+    params:
+        db_paths = ' '.join(map(lambda x: str(x), DB_PATHS)),
+        db_names = ' '.join(DB_NAMES),
+    threads: 1
+    shell:
+        'python scripts/annotate.py -i {input} -o {output} --db-names {params.db_names} --db {params.db_paths}'
+
+rule clean:
+    shell:
+        "if [ -d {RESULT_DIR} ]; then rm -r {RESULT_DIR}; fi; "
+        "if [ -d {DATA_DIR} ]; then rm -r {DATA_DIR}; fi; "
+        "if [ -d logs ]; then rm -r logs; fi; "
+        "if [ -d benchmarks ]; then rm -r benchmarks; fi; "

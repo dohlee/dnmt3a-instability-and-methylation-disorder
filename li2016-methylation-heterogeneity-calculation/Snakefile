@@ -1,0 +1,154 @@
+import os
+import glob
+import pandas as pd
+
+from pathlib import Path
+
+MIN_DISTANCE, MAX_DISTANCE = 2, 24
+
+BAM_DIR = Path('bams')
+dbgap_samples = pd.read_csv('manifest.csv')['name'].values
+print(f'# dbgap: {len(dbgap_samples)}')
+
+context_beds = {
+    'cgi': 'beds/hg38.cgi.sorted.bed',
+    'cpg_shore': 'beds/hg38.cgi_shores.pure.sorted.bed',
+    'cpg_shelf': 'beds/hg38.cgi_shelves.pure.sorted.bed',
+    'promoter': 'beds/gencode.v32.promoter.sorted.bed',
+    'methylation_canyon': 'beds/methylation_canyons_hg38.sorted.bed',
+    'exon': 'beds/gencode.v32.exon.pure.sorted.bed',
+    'genebody': 'beds/gencode.v32.genebody.pure.sorted.bed',
+    'sine': 'beds/sine.sorted.bed',
+    'line': 'beds/line.sorted.bed',
+    'ltr': 'beds/ltr.sorted.bed',
+    'bivalent_domain': '/data/project/SNUH_DNMT3A/note2/results/CHROMATIN-STATES/bivalent_domains.sorted.bed',
+    'bivalent_promoter': 'beds/gencode.v32.bivalent_promoter.sorted.bed',
+    'nonbivalent_promoter': 'beds/gencode.v32.nonbivalent_promoter.sorted.bed',
+    'bivalent_promoter_bivslop1000': 'beds/gencode.v32.bivalent_promoter.bivslop1000.sorted.bed',
+    'nonbivalent_promoter_bivslop1000': 'beds/gencode.v32.nonbivalent_promoter.bivslop1000.sorted.bed',
+}
+
+contexts = list(context_beds.keys()) + ['all']
+
+cpg_beds = {}
+for cohort in ['dbgap_rrbs']:
+    for context in list(context_beds.keys()) + ['intergenic']:
+        cpg_bed = f'common_cpgs/{cohort}.common_cpgs.{context}.filtered.sorted.bed'
+        cpg_beds[(cohort, context)] = cpg_bed
+
+tidy_cohorts = {
+    'DBGAP-ERRBS': 'dbgap_rrbs',
+}
+
+dbgap_rrbs_lpmd_result = expand('result/DBGAP-ERRBS/{s}.{c}.pairs.tsv', s=dbgap_samples, c=contexts + ['intergenic'])
+dbgap_rrbs_pm_result = expand('result_pm/DBGAP-ERRBS/{s}.{c}.pm.tsv', s=dbgap_samples, c=contexts + ['intergenic'])
+dbgap_rrbs_me_result = expand('result_me/DBGAP-ERRBS/{s}.{c}.me.tsv', s=dbgap_samples, c=contexts + ['intergenic'])
+
+ALL = []
+ALL.append(dbgap_rrbs_lpmd_result)
+ALL.append(dbgap_rrbs_pm_result)
+ALL.append(dbgap_rrbs_me_result)
+
+rule all:
+    input: ALL
+
+ruleorder: metheor_lpmd > metheor_lpmd_context
+ruleorder: metheor_pm > metheor_pm_context
+ruleorder: metheor_me > metheor_me_context
+
+rule metheor_lpmd:
+    input:
+        bam = 'bams/{cohort}/{sample}.bismark.sorted.bam',
+        bai = 'bams/{cohort}/{sample}.bismark.sorted.bam.bai',
+    output:
+        out = 'result/{cohort}/{sample}.all.lpmd.tsv',
+        pairs = 'result/{cohort}/{sample}.all.pairs.tsv',
+    threads: 1
+    benchmark:
+        repeat('benchmarks/metheor_lpmd/{cohort}/{sample}.all.tsv', 1)
+    shell:
+        'metheor lpmd -i {input.bam} '
+        '-o {output.out} '
+        '-p {output.pairs} '
+        '--min-distance {MIN_DISTANCE} --max-distance {MAX_DISTANCE} --min-qual 10'
+
+rule metheor_lpmd_context:
+    input:
+        bam = 'bams/{cohort}/{sample}.bismark.sorted.bam',
+        bai = 'bams/{cohort}/{sample}.bismark.sorted.bam.bai',
+    output:
+        out = 'result/{cohort}/{sample}.{context}.lpmd.tsv',
+        pairs = 'result/{cohort}/{sample}.{context}.pairs.tsv',
+    params:
+        cpg_bed = lambda wildcards: cpg_beds[(tidy_cohorts[wildcards.cohort], wildcards.context)]
+    threads: 1
+    benchmark:
+        repeat('benchmarks/metheor_lpmd/{cohort}/{sample}.{context}.tsv', 1)
+    shell:
+        'metheor lpmd -i {input.bam} '
+        '-o {output.out} '
+        '-p {output.pairs} '
+        '-c {params.cpg_bed} '
+        '--min-distance {MIN_DISTANCE} --max-distance {MAX_DISTANCE} --min-qual 10'
+
+rule metheor_pm:
+    input:
+        bam = 'bams/{cohort}/{sample}.bismark.sorted.bam',
+        bai = 'bams/{cohort}/{sample}.bismark.sorted.bam.bai',
+    output:
+        out = 'result_pm/{cohort}/{sample}.all.pm.tsv',
+    threads: 1
+    benchmark:
+        repeat('benchmarks/metheor_pm/{cohort}/{sample}.all.tsv', 1)
+    shell:
+        'metheor pm -i {input.bam} '
+        '-o {output.out} '
+        '--min-depth 10 --min-qual 10'
+
+rule metheor_pm_context:
+    input:
+        bam = 'bams/{cohort}/{sample}.bismark.sorted.bam',
+        bai = 'bams/{cohort}/{sample}.bismark.sorted.bam.bai',
+    output:
+        out = 'result_pm/{cohort}/{sample}.{context}.pm.tsv',
+    params:
+        cpg_bed = lambda wildcards: cpg_beds[(tidy_cohorts[wildcards.cohort], wildcards.context)]
+    threads: 1
+    benchmark:
+        repeat('benchmarks/metheor_pm/{cohort}/{sample}.{context}.tsv', 1)
+    shell:
+        'metheor pm -i {input.bam} '
+        '-o {output.out} '
+        '-c {params.cpg_bed} '
+        '--min-depth 10 --min-qual 10'
+
+rule metheor_me:
+    input:
+        bam = 'bams/{cohort}/{sample}.bismark.sorted.bam',
+        bai = 'bams/{cohort}/{sample}.bismark.sorted.bam.bai',
+    output:
+        out = 'result_me/{cohort}/{sample}.all.me.tsv',
+    threads: 1
+    benchmark:
+        repeat('benchmarks/metheor_me/{cohort}/{sample}.all.tsv', 1)
+    shell:
+        'metheor me -i {input.bam} '
+        '-o {output.out} '
+        '--min-depth 10 --min-qual 10'
+
+rule metheor_me_context:
+    input:
+        bam = 'bams/{cohort}/{sample}.bismark.sorted.bam',
+        bai = 'bams/{cohort}/{sample}.bismark.sorted.bam.bai',
+    output:
+        out = 'result_me/{cohort}/{sample}.{context}.me.tsv',
+    params:
+        cpg_bed = lambda wildcards: cpg_beds[(tidy_cohorts[wildcards.cohort], wildcards.context)]
+    threads: 1
+    benchmark:
+        repeat('benchmarks/metheor_me/{cohort}/{sample}.{context}.tsv', 1)
+    shell:
+        'metheor me -i {input.bam} '
+        '-o {output.out} '
+        '-c {params.cpg_bed} '
+        '--min-depth 10 --min-qual 10'

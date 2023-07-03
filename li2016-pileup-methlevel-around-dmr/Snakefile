@@ -1,0 +1,59 @@
+from pathlib import Path
+
+import os
+import glob
+import pandas as pd
+
+BDG_DIR = Path('data')
+
+BEDS = {
+    'ins_hyper': 'dmrs/ins_hyper.sorted.bed',
+    'ins_hypo': 'dmrs/ins_hypo.sorted.bed',
+    'wt_hyper': 'dmrs/wt_hyper.sorted.bed',
+    'wt_hypo': 'dmrs/wt_hypo.sorted.bed',
+    'r882_hyper': 'dmrs/r882_hyper.sorted.bed',
+    'r882_hypo': 'dmrs/r882_hypo.sorted.bed',
+    'other_hyper': 'dmrs/other_hyper.sorted.bed',
+    'other_hypo': 'dmrs/other_hypo.sorted.bed',
+    'ins_exclusive_hyper': 'dmrs/ins_exclusive_hyper.sorted.bed',
+    'r882_vs_wt_hypo' : 'dmrs/r882_vs_wt_hypo.sorted.bed',
+    'bivalent_domains': 'dmrs/bivalent_domains.sorted.bed',
+    'bivalent_domains_center': 'dmrs/bivalent_domains.center.sorted.bed',
+}
+
+samples = pd.read_csv('manifest.csv')['name'].values
+print(f'There are {len(samples)} samples.')
+
+regions = list(BEDS.keys())
+print('Regions:', regions)
+
+rule all:
+    input:
+        expand('result/intersect/{sample}.{region}.bed', sample=samples, region=regions),
+        expand('result/closest/{sample}.{region}.bed', sample=samples, region=regions),
+
+rule bedtools_intersect:
+    input:
+        BDG_DIR / '{sample}.all.processed.bedGraph' 
+    output:
+        'result/intersect/{sample}.{region}.bed'
+    params:
+        bed = lambda wildcards: BEDS[wildcards.region]
+    shell:
+        "cat {input} | "
+        "bedtools intersect -a stdin -b {params.bed} -wb | "
+        "awk 'BEGIN {{OFS=\"\t\"}} {{ print $1,$2,$3,$4,$8,($3-$6)/($7-$6) }}' "
+        "> {output}"
+
+rule bedtools_closest:
+    input:
+        BDG_DIR / '{sample}.all.processed.bedGraph' 
+    output:
+        'result/closest/{sample}.{region}.bed'
+    params:
+        bed = lambda wildcards: BEDS[wildcards.region]
+    shell:
+        "cat {input} | "
+        "bedtools closest -a stdin -b {params.bed} -D ref | "
+        "awk 'BEGIN {{OFS=\"\t\"}} {{ if ($9 > -3000 && $9 < 3000 && $9 != 0) {{print $1,$2,$3,$4,$8,$9 }} }}'"
+        "> {output}"

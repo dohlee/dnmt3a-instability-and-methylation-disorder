@@ -1,0 +1,1486 @@
+ccl_name,cpd_name,lpmd,area_under_curve,context
+P31FUJ,azacitidine,0.05772444483388829,14.112,cgi
+P31FUJ,decitabine,0.05772444483388829,9.3377,cgi
+P31FUJ,RG-108,0.05772444483388829,12.322,cgi
+P31FUJ,decitabine:navitoclax (2:1 mol/mol),0.05772444483388829,6.9774,cgi
+P31FUJ,selumetinib:decitabine (4:1 mol/mol),0.05772444483388829,7.1034,cgi
+P31FUJ,decitabine:carboplatin (1:1 mol/mol),0.05772444483388829,10.775,cgi
+HEL,azacitidine,0.06262270448695052,14.163,cgi
+HEL,decitabine,0.06262270448695052,6.8316,cgi
+HEL,RG-108,0.06262270448695052,11.864,cgi
+HEL,decitabine:navitoclax (2:1 mol/mol),0.06262270448695052,7.298,cgi
+HEL,decitabine:carboplatin (1:1 mol/mol),0.06262270448695052,9.5177,cgi
+MONOMAC6,decitabine,0.044835404318023776,13.573,cgi
+MONOMAC6,RG-108,0.044835404318023776,14.628,cgi
+MONOMAC6,decitabine:navitoclax (2:1 mol/mol),0.044835404318023776,11.339,cgi
+MONOMAC6,selumetinib:decitabine (4:1 mol/mol),0.044835404318023776,12.174,cgi
+ME1,decitabine,0.05236989572742534,13.539,cgi
+ME1,RG-108,0.05236989572742534,14.48,cgi
+ME1,decitabine:navitoclax (2:1 mol/mol),0.05236989572742534,7.2203,cgi
+ME1,selumetinib:decitabine (4:1 mol/mol),0.05236989572742534,8.6657,cgi
+ME1,decitabine:carboplatin (1:1 mol/mol),0.05236989572742534,14.09,cgi
+NOMO1,azacitidine,0.05696949759276954,14.069,cgi
+NOMO1,decitabine,0.05696949759276954,7.8482,cgi
+NOMO1,RG-108,0.05696949759276954,10.741,cgi
+NOMO1,decitabine:carboplatin (1:1 mol/mol),0.05696949759276954,9.8516,cgi
+OCIAML2,azacitidine,0.05845248172020627,12.84,cgi
+OCIAML2,decitabine,0.05845248172020627,6.7101,cgi
+OCIAML2,RG-108,0.05845248172020627,16.387,cgi
+OCIAML2,decitabine:carboplatin (1:1 mol/mol),0.05845248172020627,8.3467,cgi
+THP1,azacitidine,0.04112595237923052,12.917,cgi
+THP1,decitabine,0.04112595237923052,13.84,cgi
+THP1,RG-108,0.04112595237923052,14.878,cgi
+THP1,decitabine:navitoclax (2:1 mol/mol),0.04112595237923052,12.107,cgi
+THP1,selumetinib:decitabine (4:1 mol/mol),0.04112595237923052,6.6444,cgi
+THP1,decitabine:carboplatin (1:1 mol/mol),0.04112595237923052,13.195,cgi
+OCIAML3,azacitidine,0.0421291564133737,14.565,cgi
+OCIAML3,decitabine,0.0421291564133737,14.296,cgi
+OCIAML3,decitabine:navitoclax (2:1 mol/mol),0.0421291564133737,14.305,cgi
+OCIAML3,selumetinib:decitabine (4:1 mol/mol),0.0421291564133737,3.5385,cgi
+OCIAML3,decitabine:carboplatin (1:1 mol/mol),0.0421291564133737,14.508,cgi
+EOL1,azacitidine,0.0594630855808291,13.326,cgi
+EOL1,decitabine,0.0594630855808291,2.9783,cgi
+EOL1,RG-108,0.0594630855808291,11.041,cgi
+EOL1,decitabine:navitoclax (2:1 mol/mol),0.0594630855808291,2.047,cgi
+EOL1,selumetinib:decitabine (4:1 mol/mol),0.0594630855808291,3.0543,cgi
+EOL1,decitabine:carboplatin (1:1 mol/mol),0.0594630855808291,4.3402,cgi
+CMK,azacitidine,0.032048558358948,14.352,cgi
+CMK,decitabine,0.032048558358948,8.3546,cgi
+CMK,RG-108,0.032048558358948,14.363,cgi
+CMK,decitabine:navitoclax (2:1 mol/mol),0.032048558358948,8.8831,cgi
+CMK,selumetinib:decitabine (4:1 mol/mol),0.032048558358948,7.5666,cgi
+CMK,decitabine:carboplatin (1:1 mol/mol),0.032048558358948,9.607,cgi
+KASUMI1,decitabine,0.04361537010262254,10.129,cgi
+KASUMI1,RG-108,0.04361537010262254,15.0,cgi
+KASUMI1,decitabine:navitoclax (2:1 mol/mol),0.04361537010262254,7.1835,cgi
+KASUMI1,selumetinib:decitabine (4:1 mol/mol),0.04361537010262254,7.8533,cgi
+KASUMI1,decitabine:carboplatin (1:1 mol/mol),0.04361537010262254,10.405,cgi
+KO52,azacitidine,0.04174551670055457,14.318,cgi
+KO52,decitabine,0.04174551670055457,9.9317,cgi
+KO52,RG-108,0.04174551670055457,12.63,cgi
+KO52,decitabine:navitoclax (2:1 mol/mol),0.04174551670055457,7.447,cgi
+KO52,selumetinib:decitabine (4:1 mol/mol),0.04174551670055457,6.4578,cgi
+KO52,decitabine:carboplatin (1:1 mol/mol),0.04174551670055457,12.689,cgi
+OCIM1,azacitidine,0.06444038072433986,15.357,cgi
+OCIM1,decitabine,0.06444038072433986,8.4816,cgi
+OCIM1,RG-108,0.06444038072433986,13.326,cgi
+OCIM1,decitabine:navitoclax (2:1 mol/mol),0.06444038072433986,6.6512,cgi
+OCIM1,selumetinib:decitabine (4:1 mol/mol),0.06444038072433986,8.2996,cgi
+OCIM1,decitabine:carboplatin (1:1 mol/mol),0.06444038072433986,8.5318,cgi
+SIGM5,azacitidine,0.0451896908838258,14.913,cgi
+SIGM5,decitabine,0.0451896908838258,11.247,cgi
+SIGM5,RG-108,0.0451896908838258,15.316,cgi
+SIGM5,decitabine:navitoclax (2:1 mol/mol),0.0451896908838258,10.855,cgi
+SIGM5,selumetinib:decitabine (4:1 mol/mol),0.0451896908838258,3.504,cgi
+SIGM5,decitabine:carboplatin (1:1 mol/mol),0.0451896908838258,11.596,cgi
+HEL9217,azacitidine,0.07269127900441978,14.551,cgi
+HEL9217,decitabine,0.07269127900441978,8.9849,cgi
+HEL9217,RG-108,0.07269127900441978,12.214,cgi
+HEL9217,decitabine:navitoclax (2:1 mol/mol),0.07269127900441978,8.0628,cgi
+HEL9217,selumetinib:decitabine (4:1 mol/mol),0.07269127900441978,9.8485,cgi
+HEL9217,decitabine:carboplatin (1:1 mol/mol),0.07269127900441978,9.1101,cgi
+BDCM,decitabine:carboplatin (1:1 mol/mol),0.055351550816399336,14.595,cgi
+F36P,azacitidine,0.05094759633498464,14.643,cgi
+F36P,decitabine,0.05094759633498464,10.333,cgi
+F36P,RG-108,0.05094759633498464,13.158,cgi
+F36P,decitabine:navitoclax (2:1 mol/mol),0.05094759633498464,8.6734,cgi
+F36P,selumetinib:decitabine (4:1 mol/mol),0.05094759633498464,7.8079,cgi
+F36P,decitabine:carboplatin (1:1 mol/mol),0.05094759633498464,11.961,cgi
+M07E,azacitidine,0.07347723081623914,14.525,cgi
+M07E,decitabine,0.07347723081623914,8.1452,cgi
+M07E,RG-108,0.07347723081623914,11.014,cgi
+M07E,decitabine:navitoclax (2:1 mol/mol),0.07347723081623914,6.6369,cgi
+M07E,selumetinib:decitabine (4:1 mol/mol),0.07347723081623914,8.1573,cgi
+M07E,decitabine:carboplatin (1:1 mol/mol),0.07347723081623914,9.5702,cgi
+AML193,azacitidine,0.03679833911124309,14.293,cgi
+AML193,decitabine,0.03679833911124309,14.021,cgi
+AML193,RG-108,0.03679833911124309,15.771,cgi
+AML193,decitabine:navitoclax (2:1 mol/mol),0.03679833911124309,9.6624,cgi
+AML193,selumetinib:decitabine (4:1 mol/mol),0.03679833911124309,7.9157,cgi
+AML193,decitabine:carboplatin (1:1 mol/mol),0.03679833911124309,13.27,cgi
+P31FUJ,azacitidine,0.11604480160265895,14.112,cpg_shore
+P31FUJ,decitabine,0.11604480160265895,9.3377,cpg_shore
+P31FUJ,RG-108,0.11604480160265895,12.322,cpg_shore
+P31FUJ,decitabine:navitoclax (2:1 mol/mol),0.11604480160265895,6.9774,cpg_shore
+P31FUJ,selumetinib:decitabine (4:1 mol/mol),0.11604480160265895,7.1034,cpg_shore
+P31FUJ,decitabine:carboplatin (1:1 mol/mol),0.11604480160265895,10.775,cpg_shore
+HEL,azacitidine,0.1046151562069185,14.163,cpg_shore
+HEL,decitabine,0.1046151562069185,6.8316,cpg_shore
+HEL,RG-108,0.1046151562069185,11.864,cpg_shore
+HEL,decitabine:navitoclax (2:1 mol/mol),0.1046151562069185,7.298,cpg_shore
+HEL,decitabine:carboplatin (1:1 mol/mol),0.1046151562069185,9.5177,cpg_shore
+MONOMAC6,decitabine,0.1114902781932396,13.573,cpg_shore
+MONOMAC6,RG-108,0.1114902781932396,14.628,cpg_shore
+MONOMAC6,decitabine:navitoclax (2:1 mol/mol),0.1114902781932396,11.339,cpg_shore
+MONOMAC6,selumetinib:decitabine (4:1 mol/mol),0.1114902781932396,12.174,cpg_shore
+ME1,decitabine,0.09813500286583483,13.539,cpg_shore
+ME1,RG-108,0.09813500286583483,14.48,cpg_shore
+ME1,decitabine:navitoclax (2:1 mol/mol),0.09813500286583483,7.2203,cpg_shore
+ME1,selumetinib:decitabine (4:1 mol/mol),0.09813500286583483,8.6657,cpg_shore
+ME1,decitabine:carboplatin (1:1 mol/mol),0.09813500286583483,14.09,cpg_shore
+NOMO1,azacitidine,0.11390489980415634,14.069,cpg_shore
+NOMO1,decitabine,0.11390489980415634,7.8482,cpg_shore
+NOMO1,RG-108,0.11390489980415634,10.741,cpg_shore
+NOMO1,decitabine:carboplatin (1:1 mol/mol),0.11390489980415634,9.8516,cpg_shore
+OCIAML2,azacitidine,0.0980857642467546,12.84,cpg_shore
+OCIAML2,decitabine,0.0980857642467546,6.7101,cpg_shore
+OCIAML2,RG-108,0.0980857642467546,16.387,cpg_shore
+OCIAML2,decitabine:carboplatin (1:1 mol/mol),0.0980857642467546,8.3467,cpg_shore
+THP1,azacitidine,0.09100101724472001,12.917,cpg_shore
+THP1,decitabine,0.09100101724472001,13.84,cpg_shore
+THP1,RG-108,0.09100101724472001,14.878,cpg_shore
+THP1,decitabine:navitoclax (2:1 mol/mol),0.09100101724472001,12.107,cpg_shore
+THP1,selumetinib:decitabine (4:1 mol/mol),0.09100101724472001,6.6444,cpg_shore
+THP1,decitabine:carboplatin (1:1 mol/mol),0.09100101724472001,13.195,cpg_shore
+OCIAML3,azacitidine,0.09398616439948843,14.565,cpg_shore
+OCIAML3,decitabine,0.09398616439948843,14.296,cpg_shore
+OCIAML3,decitabine:navitoclax (2:1 mol/mol),0.09398616439948843,14.305,cpg_shore
+OCIAML3,selumetinib:decitabine (4:1 mol/mol),0.09398616439948843,3.5385,cpg_shore
+OCIAML3,decitabine:carboplatin (1:1 mol/mol),0.09398616439948843,14.508,cpg_shore
+EOL1,azacitidine,0.10803395908491932,13.326,cpg_shore
+EOL1,decitabine,0.10803395908491932,2.9783,cpg_shore
+EOL1,RG-108,0.10803395908491932,11.041,cpg_shore
+EOL1,decitabine:navitoclax (2:1 mol/mol),0.10803395908491932,2.047,cpg_shore
+EOL1,selumetinib:decitabine (4:1 mol/mol),0.10803395908491932,3.0543,cpg_shore
+EOL1,decitabine:carboplatin (1:1 mol/mol),0.10803395908491932,4.3402,cpg_shore
+CMK,azacitidine,0.08200569645353704,14.352,cpg_shore
+CMK,decitabine,0.08200569645353704,8.3546,cpg_shore
+CMK,RG-108,0.08200569645353704,14.363,cpg_shore
+CMK,decitabine:navitoclax (2:1 mol/mol),0.08200569645353704,8.8831,cpg_shore
+CMK,selumetinib:decitabine (4:1 mol/mol),0.08200569645353704,7.5666,cpg_shore
+CMK,decitabine:carboplatin (1:1 mol/mol),0.08200569645353704,9.607,cpg_shore
+KASUMI1,decitabine,0.07248554136665385,10.129,cpg_shore
+KASUMI1,RG-108,0.07248554136665385,15.0,cpg_shore
+KASUMI1,decitabine:navitoclax (2:1 mol/mol),0.07248554136665385,7.1835,cpg_shore
+KASUMI1,selumetinib:decitabine (4:1 mol/mol),0.07248554136665385,7.8533,cpg_shore
+KASUMI1,decitabine:carboplatin (1:1 mol/mol),0.07248554136665385,10.405,cpg_shore
+KO52,azacitidine,0.09340277777777778,14.318,cpg_shore
+KO52,decitabine,0.09340277777777778,9.9317,cpg_shore
+KO52,RG-108,0.09340277777777778,12.63,cpg_shore
+KO52,decitabine:navitoclax (2:1 mol/mol),0.09340277777777778,7.447,cpg_shore
+KO52,selumetinib:decitabine (4:1 mol/mol),0.09340277777777778,6.4578,cpg_shore
+KO52,decitabine:carboplatin (1:1 mol/mol),0.09340277777777778,12.689,cpg_shore
+OCIM1,azacitidine,0.11341452172933332,15.357,cpg_shore
+OCIM1,decitabine,0.11341452172933332,8.4816,cpg_shore
+OCIM1,RG-108,0.11341452172933332,13.326,cpg_shore
+OCIM1,decitabine:navitoclax (2:1 mol/mol),0.11341452172933332,6.6512,cpg_shore
+OCIM1,selumetinib:decitabine (4:1 mol/mol),0.11341452172933332,8.2996,cpg_shore
+OCIM1,decitabine:carboplatin (1:1 mol/mol),0.11341452172933332,8.5318,cpg_shore
+SIGM5,azacitidine,0.08399064455954625,14.913,cpg_shore
+SIGM5,decitabine,0.08399064455954625,11.247,cpg_shore
+SIGM5,RG-108,0.08399064455954625,15.316,cpg_shore
+SIGM5,decitabine:navitoclax (2:1 mol/mol),0.08399064455954625,10.855,cpg_shore
+SIGM5,selumetinib:decitabine (4:1 mol/mol),0.08399064455954625,3.504,cpg_shore
+SIGM5,decitabine:carboplatin (1:1 mol/mol),0.08399064455954625,11.596,cpg_shore
+HEL9217,azacitidine,0.11790720554857438,14.551,cpg_shore
+HEL9217,decitabine,0.11790720554857438,8.9849,cpg_shore
+HEL9217,RG-108,0.11790720554857438,12.214,cpg_shore
+HEL9217,decitabine:navitoclax (2:1 mol/mol),0.11790720554857438,8.0628,cpg_shore
+HEL9217,selumetinib:decitabine (4:1 mol/mol),0.11790720554857438,9.8485,cpg_shore
+HEL9217,decitabine:carboplatin (1:1 mol/mol),0.11790720554857438,9.1101,cpg_shore
+BDCM,decitabine:carboplatin (1:1 mol/mol),0.11827798211936531,14.595,cpg_shore
+F36P,azacitidine,0.10262401570203519,14.643,cpg_shore
+F36P,decitabine,0.10262401570203519,10.333,cpg_shore
+F36P,RG-108,0.10262401570203519,13.158,cpg_shore
+F36P,decitabine:navitoclax (2:1 mol/mol),0.10262401570203519,8.6734,cpg_shore
+F36P,selumetinib:decitabine (4:1 mol/mol),0.10262401570203519,7.8079,cpg_shore
+F36P,decitabine:carboplatin (1:1 mol/mol),0.10262401570203519,11.961,cpg_shore
+M07E,azacitidine,0.10534761353882897,14.525,cpg_shore
+M07E,decitabine,0.10534761353882897,8.1452,cpg_shore
+M07E,RG-108,0.10534761353882897,11.014,cpg_shore
+M07E,decitabine:navitoclax (2:1 mol/mol),0.10534761353882897,6.6369,cpg_shore
+M07E,selumetinib:decitabine (4:1 mol/mol),0.10534761353882897,8.1573,cpg_shore
+M07E,decitabine:carboplatin (1:1 mol/mol),0.10534761353882897,9.5702,cpg_shore
+AML193,azacitidine,0.07149041434755721,14.293,cpg_shore
+AML193,decitabine,0.07149041434755721,14.021,cpg_shore
+AML193,RG-108,0.07149041434755721,15.771,cpg_shore
+AML193,decitabine:navitoclax (2:1 mol/mol),0.07149041434755721,9.6624,cpg_shore
+AML193,selumetinib:decitabine (4:1 mol/mol),0.07149041434755721,7.9157,cpg_shore
+AML193,decitabine:carboplatin (1:1 mol/mol),0.07149041434755721,13.27,cpg_shore
+P31FUJ,azacitidine,0.1587560860687922,14.112,cpg_shelf
+P31FUJ,decitabine,0.1587560860687922,9.3377,cpg_shelf
+P31FUJ,RG-108,0.1587560860687922,12.322,cpg_shelf
+P31FUJ,decitabine:navitoclax (2:1 mol/mol),0.1587560860687922,6.9774,cpg_shelf
+P31FUJ,selumetinib:decitabine (4:1 mol/mol),0.1587560860687922,7.1034,cpg_shelf
+P31FUJ,decitabine:carboplatin (1:1 mol/mol),0.1587560860687922,10.775,cpg_shelf
+HEL,azacitidine,0.14698361036847613,14.163,cpg_shelf
+HEL,decitabine,0.14698361036847613,6.8316,cpg_shelf
+HEL,RG-108,0.14698361036847613,11.864,cpg_shelf
+HEL,decitabine:navitoclax (2:1 mol/mol),0.14698361036847613,7.298,cpg_shelf
+HEL,decitabine:carboplatin (1:1 mol/mol),0.14698361036847613,9.5177,cpg_shelf
+MONOMAC6,decitabine,0.18116759225766182,13.573,cpg_shelf
+MONOMAC6,RG-108,0.18116759225766182,14.628,cpg_shelf
+MONOMAC6,decitabine:navitoclax (2:1 mol/mol),0.18116759225766182,11.339,cpg_shelf
+MONOMAC6,selumetinib:decitabine (4:1 mol/mol),0.18116759225766182,12.174,cpg_shelf
+ME1,decitabine,0.16013976240391334,13.539,cpg_shelf
+ME1,RG-108,0.16013976240391334,14.48,cpg_shelf
+ME1,decitabine:navitoclax (2:1 mol/mol),0.16013976240391334,7.2203,cpg_shelf
+ME1,selumetinib:decitabine (4:1 mol/mol),0.16013976240391334,8.6657,cpg_shelf
+ME1,decitabine:carboplatin (1:1 mol/mol),0.16013976240391334,14.09,cpg_shelf
+NOMO1,azacitidine,0.16364285126121922,14.069,cpg_shelf
+NOMO1,decitabine,0.16364285126121922,7.8482,cpg_shelf
+NOMO1,RG-108,0.16364285126121922,10.741,cpg_shelf
+NOMO1,decitabine:carboplatin (1:1 mol/mol),0.16364285126121922,9.8516,cpg_shelf
+OCIAML2,azacitidine,0.17392580633324772,12.84,cpg_shelf
+OCIAML2,decitabine,0.17392580633324772,6.7101,cpg_shelf
+OCIAML2,RG-108,0.17392580633324772,16.387,cpg_shelf
+OCIAML2,decitabine:carboplatin (1:1 mol/mol),0.17392580633324772,8.3467,cpg_shelf
+THP1,azacitidine,0.13398538769738394,12.917,cpg_shelf
+THP1,decitabine,0.13398538769738394,13.84,cpg_shelf
+THP1,RG-108,0.13398538769738394,14.878,cpg_shelf
+THP1,decitabine:navitoclax (2:1 mol/mol),0.13398538769738394,12.107,cpg_shelf
+THP1,selumetinib:decitabine (4:1 mol/mol),0.13398538769738394,6.6444,cpg_shelf
+THP1,decitabine:carboplatin (1:1 mol/mol),0.13398538769738394,13.195,cpg_shelf
+OCIAML3,azacitidine,0.1638099644577173,14.565,cpg_shelf
+OCIAML3,decitabine,0.1638099644577173,14.296,cpg_shelf
+OCIAML3,decitabine:navitoclax (2:1 mol/mol),0.1638099644577173,14.305,cpg_shelf
+OCIAML3,selumetinib:decitabine (4:1 mol/mol),0.1638099644577173,3.5385,cpg_shelf
+OCIAML3,decitabine:carboplatin (1:1 mol/mol),0.1638099644577173,14.508,cpg_shelf
+EOL1,azacitidine,0.14016568679850347,13.326,cpg_shelf
+EOL1,decitabine,0.14016568679850347,2.9783,cpg_shelf
+EOL1,RG-108,0.14016568679850347,11.041,cpg_shelf
+EOL1,decitabine:navitoclax (2:1 mol/mol),0.14016568679850347,2.047,cpg_shelf
+EOL1,selumetinib:decitabine (4:1 mol/mol),0.14016568679850347,3.0543,cpg_shelf
+EOL1,decitabine:carboplatin (1:1 mol/mol),0.14016568679850347,4.3402,cpg_shelf
+CMK,azacitidine,0.1304211895352909,14.352,cpg_shelf
+CMK,decitabine,0.1304211895352909,8.3546,cpg_shelf
+CMK,RG-108,0.1304211895352909,14.363,cpg_shelf
+CMK,decitabine:navitoclax (2:1 mol/mol),0.1304211895352909,8.8831,cpg_shelf
+CMK,selumetinib:decitabine (4:1 mol/mol),0.1304211895352909,7.5666,cpg_shelf
+CMK,decitabine:carboplatin (1:1 mol/mol),0.1304211895352909,9.607,cpg_shelf
+KASUMI1,decitabine,0.12194656606003164,10.129,cpg_shelf
+KASUMI1,RG-108,0.12194656606003164,15.0,cpg_shelf
+KASUMI1,decitabine:navitoclax (2:1 mol/mol),0.12194656606003164,7.1835,cpg_shelf
+KASUMI1,selumetinib:decitabine (4:1 mol/mol),0.12194656606003164,7.8533,cpg_shelf
+KASUMI1,decitabine:carboplatin (1:1 mol/mol),0.12194656606003164,10.405,cpg_shelf
+KO52,azacitidine,0.11665141811527904,14.318,cpg_shelf
+KO52,decitabine,0.11665141811527904,9.9317,cpg_shelf
+KO52,RG-108,0.11665141811527904,12.63,cpg_shelf
+KO52,decitabine:navitoclax (2:1 mol/mol),0.11665141811527904,7.447,cpg_shelf
+KO52,selumetinib:decitabine (4:1 mol/mol),0.11665141811527904,6.4578,cpg_shelf
+KO52,decitabine:carboplatin (1:1 mol/mol),0.11665141811527904,12.689,cpg_shelf
+OCIM1,azacitidine,0.17879459786333401,15.357,cpg_shelf
+OCIM1,decitabine,0.17879459786333401,8.4816,cpg_shelf
+OCIM1,RG-108,0.17879459786333401,13.326,cpg_shelf
+OCIM1,decitabine:navitoclax (2:1 mol/mol),0.17879459786333401,6.6512,cpg_shelf
+OCIM1,selumetinib:decitabine (4:1 mol/mol),0.17879459786333401,8.2996,cpg_shelf
+OCIM1,decitabine:carboplatin (1:1 mol/mol),0.17879459786333401,8.5318,cpg_shelf
+SIGM5,azacitidine,0.15544355537081297,14.913,cpg_shelf
+SIGM5,decitabine,0.15544355537081297,11.247,cpg_shelf
+SIGM5,RG-108,0.15544355537081297,15.316,cpg_shelf
+SIGM5,decitabine:navitoclax (2:1 mol/mol),0.15544355537081297,10.855,cpg_shelf
+SIGM5,selumetinib:decitabine (4:1 mol/mol),0.15544355537081297,3.504,cpg_shelf
+SIGM5,decitabine:carboplatin (1:1 mol/mol),0.15544355537081297,11.596,cpg_shelf
+HEL9217,azacitidine,0.16631370499738718,14.551,cpg_shelf
+HEL9217,decitabine,0.16631370499738718,8.9849,cpg_shelf
+HEL9217,RG-108,0.16631370499738718,12.214,cpg_shelf
+HEL9217,decitabine:navitoclax (2:1 mol/mol),0.16631370499738718,8.0628,cpg_shelf
+HEL9217,selumetinib:decitabine (4:1 mol/mol),0.16631370499738718,9.8485,cpg_shelf
+HEL9217,decitabine:carboplatin (1:1 mol/mol),0.16631370499738718,9.1101,cpg_shelf
+BDCM,decitabine:carboplatin (1:1 mol/mol),0.20391161185385012,14.595,cpg_shelf
+F36P,azacitidine,0.18498842119602235,14.643,cpg_shelf
+F36P,decitabine,0.18498842119602235,10.333,cpg_shelf
+F36P,RG-108,0.18498842119602235,13.158,cpg_shelf
+F36P,decitabine:navitoclax (2:1 mol/mol),0.18498842119602235,8.6734,cpg_shelf
+F36P,selumetinib:decitabine (4:1 mol/mol),0.18498842119602235,7.8079,cpg_shelf
+F36P,decitabine:carboplatin (1:1 mol/mol),0.18498842119602235,11.961,cpg_shelf
+M07E,azacitidine,0.13704229349985808,14.525,cpg_shelf
+M07E,decitabine,0.13704229349985808,8.1452,cpg_shelf
+M07E,RG-108,0.13704229349985808,11.014,cpg_shelf
+M07E,decitabine:navitoclax (2:1 mol/mol),0.13704229349985808,6.6369,cpg_shelf
+M07E,selumetinib:decitabine (4:1 mol/mol),0.13704229349985808,8.1573,cpg_shelf
+M07E,decitabine:carboplatin (1:1 mol/mol),0.13704229349985808,9.5702,cpg_shelf
+AML193,azacitidine,0.09685742506400048,14.293,cpg_shelf
+AML193,decitabine,0.09685742506400048,14.021,cpg_shelf
+AML193,RG-108,0.09685742506400048,15.771,cpg_shelf
+AML193,decitabine:navitoclax (2:1 mol/mol),0.09685742506400048,9.6624,cpg_shelf
+AML193,selumetinib:decitabine (4:1 mol/mol),0.09685742506400048,7.9157,cpg_shelf
+AML193,decitabine:carboplatin (1:1 mol/mol),0.09685742506400048,13.27,cpg_shelf
+P31FUJ,azacitidine,0.04944909111944412,14.112,promoter
+P31FUJ,decitabine,0.04944909111944412,9.3377,promoter
+P31FUJ,RG-108,0.04944909111944412,12.322,promoter
+P31FUJ,decitabine:navitoclax (2:1 mol/mol),0.04944909111944412,6.9774,promoter
+P31FUJ,selumetinib:decitabine (4:1 mol/mol),0.04944909111944412,7.1034,promoter
+P31FUJ,decitabine:carboplatin (1:1 mol/mol),0.04944909111944412,10.775,promoter
+HEL,azacitidine,0.05405339779631568,14.163,promoter
+HEL,decitabine,0.05405339779631568,6.8316,promoter
+HEL,RG-108,0.05405339779631568,11.864,promoter
+HEL,decitabine:navitoclax (2:1 mol/mol),0.05405339779631568,7.298,promoter
+HEL,decitabine:carboplatin (1:1 mol/mol),0.05405339779631568,9.5177,promoter
+MONOMAC6,decitabine,0.04082821674741984,13.573,promoter
+MONOMAC6,RG-108,0.04082821674741984,14.628,promoter
+MONOMAC6,decitabine:navitoclax (2:1 mol/mol),0.04082821674741984,11.339,promoter
+MONOMAC6,selumetinib:decitabine (4:1 mol/mol),0.04082821674741984,12.174,promoter
+ME1,decitabine,0.043447057297190436,13.539,promoter
+ME1,RG-108,0.043447057297190436,14.48,promoter
+ME1,decitabine:navitoclax (2:1 mol/mol),0.043447057297190436,7.2203,promoter
+ME1,selumetinib:decitabine (4:1 mol/mol),0.043447057297190436,8.6657,promoter
+ME1,decitabine:carboplatin (1:1 mol/mol),0.043447057297190436,14.09,promoter
+NOMO1,azacitidine,0.049739833026811356,14.069,promoter
+NOMO1,decitabine,0.049739833026811356,7.8482,promoter
+NOMO1,RG-108,0.049739833026811356,10.741,promoter
+NOMO1,decitabine:carboplatin (1:1 mol/mol),0.049739833026811356,9.8516,promoter
+OCIAML2,azacitidine,0.0505144933301509,12.84,promoter
+OCIAML2,decitabine,0.0505144933301509,6.7101,promoter
+OCIAML2,RG-108,0.0505144933301509,16.387,promoter
+OCIAML2,decitabine:carboplatin (1:1 mol/mol),0.0505144933301509,8.3467,promoter
+THP1,azacitidine,0.03517760007876285,12.917,promoter
+THP1,decitabine,0.03517760007876285,13.84,promoter
+THP1,RG-108,0.03517760007876285,14.878,promoter
+THP1,decitabine:navitoclax (2:1 mol/mol),0.03517760007876285,12.107,promoter
+THP1,selumetinib:decitabine (4:1 mol/mol),0.03517760007876285,6.6444,promoter
+THP1,decitabine:carboplatin (1:1 mol/mol),0.03517760007876285,13.195,promoter
+OCIAML3,azacitidine,0.03780361273310944,14.565,promoter
+OCIAML3,decitabine,0.03780361273310944,14.296,promoter
+OCIAML3,decitabine:navitoclax (2:1 mol/mol),0.03780361273310944,14.305,promoter
+OCIAML3,selumetinib:decitabine (4:1 mol/mol),0.03780361273310944,3.5385,promoter
+OCIAML3,decitabine:carboplatin (1:1 mol/mol),0.03780361273310944,14.508,promoter
+EOL1,azacitidine,0.051705110563102036,13.326,promoter
+EOL1,decitabine,0.051705110563102036,2.9783,promoter
+EOL1,RG-108,0.051705110563102036,11.041,promoter
+EOL1,decitabine:navitoclax (2:1 mol/mol),0.051705110563102036,2.047,promoter
+EOL1,selumetinib:decitabine (4:1 mol/mol),0.051705110563102036,3.0543,promoter
+EOL1,decitabine:carboplatin (1:1 mol/mol),0.051705110563102036,4.3402,promoter
+CMK,azacitidine,0.02852953305631385,14.352,promoter
+CMK,decitabine,0.02852953305631385,8.3546,promoter
+CMK,RG-108,0.02852953305631385,14.363,promoter
+CMK,decitabine:navitoclax (2:1 mol/mol),0.02852953305631385,8.8831,promoter
+CMK,selumetinib:decitabine (4:1 mol/mol),0.02852953305631385,7.5666,promoter
+CMK,decitabine:carboplatin (1:1 mol/mol),0.02852953305631385,9.607,promoter
+KASUMI1,decitabine,0.03834923324376546,10.129,promoter
+KASUMI1,RG-108,0.03834923324376546,15.0,promoter
+KASUMI1,decitabine:navitoclax (2:1 mol/mol),0.03834923324376546,7.1835,promoter
+KASUMI1,selumetinib:decitabine (4:1 mol/mol),0.03834923324376546,7.8533,promoter
+KASUMI1,decitabine:carboplatin (1:1 mol/mol),0.03834923324376546,10.405,promoter
+KO52,azacitidine,0.03383144999471961,14.318,promoter
+KO52,decitabine,0.03383144999471961,9.9317,promoter
+KO52,RG-108,0.03383144999471961,12.63,promoter
+KO52,decitabine:navitoclax (2:1 mol/mol),0.03383144999471961,7.447,promoter
+KO52,selumetinib:decitabine (4:1 mol/mol),0.03383144999471961,6.4578,promoter
+KO52,decitabine:carboplatin (1:1 mol/mol),0.03383144999471961,12.689,promoter
+OCIM1,azacitidine,0.05396344458931592,15.357,promoter
+OCIM1,decitabine,0.05396344458931592,8.4816,promoter
+OCIM1,RG-108,0.05396344458931592,13.326,promoter
+OCIM1,decitabine:navitoclax (2:1 mol/mol),0.05396344458931592,6.6512,promoter
+OCIM1,selumetinib:decitabine (4:1 mol/mol),0.05396344458931592,8.2996,promoter
+OCIM1,decitabine:carboplatin (1:1 mol/mol),0.05396344458931592,8.5318,promoter
+SIGM5,azacitidine,0.03949646542492455,14.913,promoter
+SIGM5,decitabine,0.03949646542492455,11.247,promoter
+SIGM5,RG-108,0.03949646542492455,15.316,promoter
+SIGM5,decitabine:navitoclax (2:1 mol/mol),0.03949646542492455,10.855,promoter
+SIGM5,selumetinib:decitabine (4:1 mol/mol),0.03949646542492455,3.504,promoter
+SIGM5,decitabine:carboplatin (1:1 mol/mol),0.03949646542492455,11.596,promoter
+HEL9217,azacitidine,0.06540032588558291,14.551,promoter
+HEL9217,decitabine,0.06540032588558291,8.9849,promoter
+HEL9217,RG-108,0.06540032588558291,12.214,promoter
+HEL9217,decitabine:navitoclax (2:1 mol/mol),0.06540032588558291,8.0628,promoter
+HEL9217,selumetinib:decitabine (4:1 mol/mol),0.06540032588558291,9.8485,promoter
+HEL9217,decitabine:carboplatin (1:1 mol/mol),0.06540032588558291,9.1101,promoter
+BDCM,decitabine:carboplatin (1:1 mol/mol),0.04748534311447695,14.595,promoter
+F36P,azacitidine,0.04128650248957072,14.643,promoter
+F36P,decitabine,0.04128650248957072,10.333,promoter
+F36P,RG-108,0.04128650248957072,13.158,promoter
+F36P,decitabine:navitoclax (2:1 mol/mol),0.04128650248957072,8.6734,promoter
+F36P,selumetinib:decitabine (4:1 mol/mol),0.04128650248957072,7.8079,promoter
+F36P,decitabine:carboplatin (1:1 mol/mol),0.04128650248957072,11.961,promoter
+M07E,azacitidine,0.061959008523097714,14.525,promoter
+M07E,decitabine,0.061959008523097714,8.1452,promoter
+M07E,RG-108,0.061959008523097714,11.014,promoter
+M07E,decitabine:navitoclax (2:1 mol/mol),0.061959008523097714,6.6369,promoter
+M07E,selumetinib:decitabine (4:1 mol/mol),0.061959008523097714,8.1573,promoter
+M07E,decitabine:carboplatin (1:1 mol/mol),0.061959008523097714,9.5702,promoter
+AML193,azacitidine,0.03119156700693146,14.293,promoter
+AML193,decitabine,0.03119156700693146,14.021,promoter
+AML193,RG-108,0.03119156700693146,15.771,promoter
+AML193,decitabine:navitoclax (2:1 mol/mol),0.03119156700693146,9.6624,promoter
+AML193,selumetinib:decitabine (4:1 mol/mol),0.03119156700693146,7.9157,promoter
+AML193,decitabine:carboplatin (1:1 mol/mol),0.03119156700693146,13.27,promoter
+P31FUJ,azacitidine,0.06782364087897085,14.112,methylation_canyon
+P31FUJ,decitabine,0.06782364087897085,9.3377,methylation_canyon
+P31FUJ,RG-108,0.06782364087897085,12.322,methylation_canyon
+P31FUJ,decitabine:navitoclax (2:1 mol/mol),0.06782364087897085,6.9774,methylation_canyon
+P31FUJ,selumetinib:decitabine (4:1 mol/mol),0.06782364087897085,7.1034,methylation_canyon
+P31FUJ,decitabine:carboplatin (1:1 mol/mol),0.06782364087897085,10.775,methylation_canyon
+HEL,azacitidine,0.0717217853839038,14.163,methylation_canyon
+HEL,decitabine,0.0717217853839038,6.8316,methylation_canyon
+HEL,RG-108,0.0717217853839038,11.864,methylation_canyon
+HEL,decitabine:navitoclax (2:1 mol/mol),0.0717217853839038,7.298,methylation_canyon
+HEL,decitabine:carboplatin (1:1 mol/mol),0.0717217853839038,9.5177,methylation_canyon
+MONOMAC6,decitabine,0.06359752471764685,13.573,methylation_canyon
+MONOMAC6,RG-108,0.06359752471764685,14.628,methylation_canyon
+MONOMAC6,decitabine:navitoclax (2:1 mol/mol),0.06359752471764685,11.339,methylation_canyon
+MONOMAC6,selumetinib:decitabine (4:1 mol/mol),0.06359752471764685,12.174,methylation_canyon
+ME1,decitabine,0.06341975295377464,13.539,methylation_canyon
+ME1,RG-108,0.06341975295377464,14.48,methylation_canyon
+ME1,decitabine:navitoclax (2:1 mol/mol),0.06341975295377464,7.2203,methylation_canyon
+ME1,selumetinib:decitabine (4:1 mol/mol),0.06341975295377464,8.6657,methylation_canyon
+ME1,decitabine:carboplatin (1:1 mol/mol),0.06341975295377464,14.09,methylation_canyon
+NOMO1,azacitidine,0.06393761376799603,14.069,methylation_canyon
+NOMO1,decitabine,0.06393761376799603,7.8482,methylation_canyon
+NOMO1,RG-108,0.06393761376799603,10.741,methylation_canyon
+NOMO1,decitabine:carboplatin (1:1 mol/mol),0.06393761376799603,9.8516,methylation_canyon
+OCIAML2,azacitidine,0.07267554790549788,12.84,methylation_canyon
+OCIAML2,decitabine,0.07267554790549788,6.7101,methylation_canyon
+OCIAML2,RG-108,0.07267554790549788,16.387,methylation_canyon
+OCIAML2,decitabine:carboplatin (1:1 mol/mol),0.07267554790549788,8.3467,methylation_canyon
+THP1,azacitidine,0.04580403128377949,12.917,methylation_canyon
+THP1,decitabine,0.04580403128377949,13.84,methylation_canyon
+THP1,RG-108,0.04580403128377949,14.878,methylation_canyon
+THP1,decitabine:navitoclax (2:1 mol/mol),0.04580403128377949,12.107,methylation_canyon
+THP1,selumetinib:decitabine (4:1 mol/mol),0.04580403128377949,6.6444,methylation_canyon
+THP1,decitabine:carboplatin (1:1 mol/mol),0.04580403128377949,13.195,methylation_canyon
+OCIAML3,azacitidine,0.04802000321089792,14.565,methylation_canyon
+OCIAML3,decitabine,0.04802000321089792,14.296,methylation_canyon
+OCIAML3,decitabine:navitoclax (2:1 mol/mol),0.04802000321089792,14.305,methylation_canyon
+OCIAML3,selumetinib:decitabine (4:1 mol/mol),0.04802000321089792,3.5385,methylation_canyon
+OCIAML3,decitabine:carboplatin (1:1 mol/mol),0.04802000321089792,14.508,methylation_canyon
+EOL1,azacitidine,0.07586914418301406,13.326,methylation_canyon
+EOL1,decitabine,0.07586914418301406,2.9783,methylation_canyon
+EOL1,RG-108,0.07586914418301406,11.041,methylation_canyon
+EOL1,decitabine:navitoclax (2:1 mol/mol),0.07586914418301406,2.047,methylation_canyon
+EOL1,selumetinib:decitabine (4:1 mol/mol),0.07586914418301406,3.0543,methylation_canyon
+EOL1,decitabine:carboplatin (1:1 mol/mol),0.07586914418301406,4.3402,methylation_canyon
+CMK,azacitidine,0.03732663343547995,14.352,methylation_canyon
+CMK,decitabine,0.03732663343547995,8.3546,methylation_canyon
+CMK,RG-108,0.03732663343547995,14.363,methylation_canyon
+CMK,decitabine:navitoclax (2:1 mol/mol),0.03732663343547995,8.8831,methylation_canyon
+CMK,selumetinib:decitabine (4:1 mol/mol),0.03732663343547995,7.5666,methylation_canyon
+CMK,decitabine:carboplatin (1:1 mol/mol),0.03732663343547995,9.607,methylation_canyon
+KASUMI1,decitabine,0.04103914783930101,10.129,methylation_canyon
+KASUMI1,RG-108,0.04103914783930101,15.0,methylation_canyon
+KASUMI1,decitabine:navitoclax (2:1 mol/mol),0.04103914783930101,7.1835,methylation_canyon
+KASUMI1,selumetinib:decitabine (4:1 mol/mol),0.04103914783930101,7.8533,methylation_canyon
+KASUMI1,decitabine:carboplatin (1:1 mol/mol),0.04103914783930101,10.405,methylation_canyon
+KO52,azacitidine,0.05247153729888296,14.318,methylation_canyon
+KO52,decitabine,0.05247153729888296,9.9317,methylation_canyon
+KO52,RG-108,0.05247153729888296,12.63,methylation_canyon
+KO52,decitabine:navitoclax (2:1 mol/mol),0.05247153729888296,7.447,methylation_canyon
+KO52,selumetinib:decitabine (4:1 mol/mol),0.05247153729888296,6.4578,methylation_canyon
+KO52,decitabine:carboplatin (1:1 mol/mol),0.05247153729888296,12.689,methylation_canyon
+OCIM1,azacitidine,0.0789865515078685,15.357,methylation_canyon
+OCIM1,decitabine,0.0789865515078685,8.4816,methylation_canyon
+OCIM1,RG-108,0.0789865515078685,13.326,methylation_canyon
+OCIM1,decitabine:navitoclax (2:1 mol/mol),0.0789865515078685,6.6512,methylation_canyon
+OCIM1,selumetinib:decitabine (4:1 mol/mol),0.0789865515078685,8.2996,methylation_canyon
+OCIM1,decitabine:carboplatin (1:1 mol/mol),0.0789865515078685,8.5318,methylation_canyon
+SIGM5,azacitidine,0.04786486223347289,14.913,methylation_canyon
+SIGM5,decitabine,0.04786486223347289,11.247,methylation_canyon
+SIGM5,RG-108,0.04786486223347289,15.316,methylation_canyon
+SIGM5,decitabine:navitoclax (2:1 mol/mol),0.04786486223347289,10.855,methylation_canyon
+SIGM5,selumetinib:decitabine (4:1 mol/mol),0.04786486223347289,3.504,methylation_canyon
+SIGM5,decitabine:carboplatin (1:1 mol/mol),0.04786486223347289,11.596,methylation_canyon
+HEL9217,azacitidine,0.0875552837113014,14.551,methylation_canyon
+HEL9217,decitabine,0.0875552837113014,8.9849,methylation_canyon
+HEL9217,RG-108,0.0875552837113014,12.214,methylation_canyon
+HEL9217,decitabine:navitoclax (2:1 mol/mol),0.0875552837113014,8.0628,methylation_canyon
+HEL9217,selumetinib:decitabine (4:1 mol/mol),0.0875552837113014,9.8485,methylation_canyon
+HEL9217,decitabine:carboplatin (1:1 mol/mol),0.0875552837113014,9.1101,methylation_canyon
+BDCM,decitabine:carboplatin (1:1 mol/mol),0.05916140548274401,14.595,methylation_canyon
+F36P,azacitidine,0.0589234733836942,14.643,methylation_canyon
+F36P,decitabine,0.0589234733836942,10.333,methylation_canyon
+F36P,RG-108,0.0589234733836942,13.158,methylation_canyon
+F36P,decitabine:navitoclax (2:1 mol/mol),0.0589234733836942,8.6734,methylation_canyon
+F36P,selumetinib:decitabine (4:1 mol/mol),0.0589234733836942,7.8079,methylation_canyon
+F36P,decitabine:carboplatin (1:1 mol/mol),0.0589234733836942,11.961,methylation_canyon
+M07E,azacitidine,0.08465678672427662,14.525,methylation_canyon
+M07E,decitabine,0.08465678672427662,8.1452,methylation_canyon
+M07E,RG-108,0.08465678672427662,11.014,methylation_canyon
+M07E,decitabine:navitoclax (2:1 mol/mol),0.08465678672427662,6.6369,methylation_canyon
+M07E,selumetinib:decitabine (4:1 mol/mol),0.08465678672427662,8.1573,methylation_canyon
+M07E,decitabine:carboplatin (1:1 mol/mol),0.08465678672427662,9.5702,methylation_canyon
+AML193,azacitidine,0.047327265165393026,14.293,methylation_canyon
+AML193,decitabine,0.047327265165393026,14.021,methylation_canyon
+AML193,RG-108,0.047327265165393026,15.771,methylation_canyon
+AML193,decitabine:navitoclax (2:1 mol/mol),0.047327265165393026,9.6624,methylation_canyon
+AML193,selumetinib:decitabine (4:1 mol/mol),0.047327265165393026,7.9157,methylation_canyon
+AML193,decitabine:carboplatin (1:1 mol/mol),0.047327265165393026,13.27,methylation_canyon
+P31FUJ,azacitidine,0.10436794121649204,14.112,exon
+P31FUJ,decitabine,0.10436794121649204,9.3377,exon
+P31FUJ,RG-108,0.10436794121649204,12.322,exon
+P31FUJ,decitabine:navitoclax (2:1 mol/mol),0.10436794121649204,6.9774,exon
+P31FUJ,selumetinib:decitabine (4:1 mol/mol),0.10436794121649204,7.1034,exon
+P31FUJ,decitabine:carboplatin (1:1 mol/mol),0.10436794121649204,10.775,exon
+HEL,azacitidine,0.11810405388652424,14.163,exon
+HEL,decitabine,0.11810405388652424,6.8316,exon
+HEL,RG-108,0.11810405388652424,11.864,exon
+HEL,decitabine:navitoclax (2:1 mol/mol),0.11810405388652424,7.298,exon
+HEL,decitabine:carboplatin (1:1 mol/mol),0.11810405388652424,9.5177,exon
+MONOMAC6,decitabine,0.13785223935746097,13.573,exon
+MONOMAC6,RG-108,0.13785223935746097,14.628,exon
+MONOMAC6,decitabine:navitoclax (2:1 mol/mol),0.13785223935746097,11.339,exon
+MONOMAC6,selumetinib:decitabine (4:1 mol/mol),0.13785223935746097,12.174,exon
+ME1,decitabine,0.10188960407310056,13.539,exon
+ME1,RG-108,0.10188960407310056,14.48,exon
+ME1,decitabine:navitoclax (2:1 mol/mol),0.10188960407310056,7.2203,exon
+ME1,selumetinib:decitabine (4:1 mol/mol),0.10188960407310056,8.6657,exon
+ME1,decitabine:carboplatin (1:1 mol/mol),0.10188960407310056,14.09,exon
+NOMO1,azacitidine,0.12488029503453615,14.069,exon
+NOMO1,decitabine,0.12488029503453615,7.8482,exon
+NOMO1,RG-108,0.12488029503453615,10.741,exon
+NOMO1,decitabine:carboplatin (1:1 mol/mol),0.12488029503453615,9.8516,exon
+OCIAML2,azacitidine,0.11975293390982088,12.84,exon
+OCIAML2,decitabine,0.11975293390982088,6.7101,exon
+OCIAML2,RG-108,0.11975293390982088,16.387,exon
+OCIAML2,decitabine:carboplatin (1:1 mol/mol),0.11975293390982088,8.3467,exon
+THP1,azacitidine,0.09619104390457538,12.917,exon
+THP1,decitabine,0.09619104390457538,13.84,exon
+THP1,RG-108,0.09619104390457538,14.878,exon
+THP1,decitabine:navitoclax (2:1 mol/mol),0.09619104390457538,12.107,exon
+THP1,selumetinib:decitabine (4:1 mol/mol),0.09619104390457538,6.6444,exon
+THP1,decitabine:carboplatin (1:1 mol/mol),0.09619104390457538,13.195,exon
+OCIAML3,azacitidine,0.10547499260136135,14.565,exon
+OCIAML3,decitabine,0.10547499260136135,14.296,exon
+OCIAML3,decitabine:navitoclax (2:1 mol/mol),0.10547499260136135,14.305,exon
+OCIAML3,selumetinib:decitabine (4:1 mol/mol),0.10547499260136135,3.5385,exon
+OCIAML3,decitabine:carboplatin (1:1 mol/mol),0.10547499260136135,14.508,exon
+EOL1,azacitidine,0.09770813634112296,13.326,exon
+EOL1,decitabine,0.09770813634112296,2.9783,exon
+EOL1,RG-108,0.09770813634112296,11.041,exon
+EOL1,decitabine:navitoclax (2:1 mol/mol),0.09770813634112296,2.047,exon
+EOL1,selumetinib:decitabine (4:1 mol/mol),0.09770813634112296,3.0543,exon
+EOL1,decitabine:carboplatin (1:1 mol/mol),0.09770813634112296,4.3402,exon
+CMK,azacitidine,0.09264636839451217,14.352,exon
+CMK,decitabine,0.09264636839451217,8.3546,exon
+CMK,RG-108,0.09264636839451217,14.363,exon
+CMK,decitabine:navitoclax (2:1 mol/mol),0.09264636839451217,8.8831,exon
+CMK,selumetinib:decitabine (4:1 mol/mol),0.09264636839451217,7.5666,exon
+CMK,decitabine:carboplatin (1:1 mol/mol),0.09264636839451217,9.607,exon
+KASUMI1,decitabine,0.09349733749579113,10.129,exon
+KASUMI1,RG-108,0.09349733749579113,15.0,exon
+KASUMI1,decitabine:navitoclax (2:1 mol/mol),0.09349733749579113,7.1835,exon
+KASUMI1,selumetinib:decitabine (4:1 mol/mol),0.09349733749579113,7.8533,exon
+KASUMI1,decitabine:carboplatin (1:1 mol/mol),0.09349733749579113,10.405,exon
+KO52,azacitidine,0.09534450651769087,14.318,exon
+KO52,decitabine,0.09534450651769087,9.9317,exon
+KO52,RG-108,0.09534450651769087,12.63,exon
+KO52,decitabine:navitoclax (2:1 mol/mol),0.09534450651769087,7.447,exon
+KO52,selumetinib:decitabine (4:1 mol/mol),0.09534450651769087,6.4578,exon
+KO52,decitabine:carboplatin (1:1 mol/mol),0.09534450651769087,12.689,exon
+OCIM1,azacitidine,0.15186567164179104,15.357,exon
+OCIM1,decitabine,0.15186567164179104,8.4816,exon
+OCIM1,RG-108,0.15186567164179104,13.326,exon
+OCIM1,decitabine:navitoclax (2:1 mol/mol),0.15186567164179104,6.6512,exon
+OCIM1,selumetinib:decitabine (4:1 mol/mol),0.15186567164179104,8.2996,exon
+OCIM1,decitabine:carboplatin (1:1 mol/mol),0.15186567164179104,8.5318,exon
+SIGM5,azacitidine,0.11694366098692338,14.913,exon
+SIGM5,decitabine,0.11694366098692338,11.247,exon
+SIGM5,RG-108,0.11694366098692338,15.316,exon
+SIGM5,decitabine:navitoclax (2:1 mol/mol),0.11694366098692338,10.855,exon
+SIGM5,selumetinib:decitabine (4:1 mol/mol),0.11694366098692338,3.504,exon
+SIGM5,decitabine:carboplatin (1:1 mol/mol),0.11694366098692338,11.596,exon
+HEL9217,azacitidine,0.11926925762159646,14.551,exon
+HEL9217,decitabine,0.11926925762159646,8.9849,exon
+HEL9217,RG-108,0.11926925762159646,12.214,exon
+HEL9217,decitabine:navitoclax (2:1 mol/mol),0.11926925762159646,8.0628,exon
+HEL9217,selumetinib:decitabine (4:1 mol/mol),0.11926925762159646,9.8485,exon
+HEL9217,decitabine:carboplatin (1:1 mol/mol),0.11926925762159646,9.1101,exon
+BDCM,decitabine:carboplatin (1:1 mol/mol),0.15941240478781285,14.595,exon
+F36P,azacitidine,0.1433598493296657,14.643,exon
+F36P,decitabine,0.1433598493296657,10.333,exon
+F36P,RG-108,0.1433598493296657,13.158,exon
+F36P,decitabine:navitoclax (2:1 mol/mol),0.1433598493296657,8.6734,exon
+F36P,selumetinib:decitabine (4:1 mol/mol),0.1433598493296657,7.8079,exon
+F36P,decitabine:carboplatin (1:1 mol/mol),0.1433598493296657,11.961,exon
+M07E,azacitidine,0.11764705882352941,14.525,exon
+M07E,decitabine,0.11764705882352941,8.1452,exon
+M07E,RG-108,0.11764705882352941,11.014,exon
+M07E,decitabine:navitoclax (2:1 mol/mol),0.11764705882352941,6.6369,exon
+M07E,selumetinib:decitabine (4:1 mol/mol),0.11764705882352941,8.1573,exon
+M07E,decitabine:carboplatin (1:1 mol/mol),0.11764705882352941,9.5702,exon
+AML193,azacitidine,0.06357883478415877,14.293,exon
+AML193,decitabine,0.06357883478415877,14.021,exon
+AML193,RG-108,0.06357883478415877,15.771,exon
+AML193,decitabine:navitoclax (2:1 mol/mol),0.06357883478415877,9.6624,exon
+AML193,selumetinib:decitabine (4:1 mol/mol),0.06357883478415877,7.9157,exon
+AML193,decitabine:carboplatin (1:1 mol/mol),0.06357883478415877,13.27,exon
+P31FUJ,azacitidine,0.12639549978364345,14.112,genebody
+P31FUJ,decitabine,0.12639549978364345,9.3377,genebody
+P31FUJ,RG-108,0.12639549978364345,12.322,genebody
+P31FUJ,decitabine:navitoclax (2:1 mol/mol),0.12639549978364345,6.9774,genebody
+P31FUJ,selumetinib:decitabine (4:1 mol/mol),0.12639549978364345,7.1034,genebody
+P31FUJ,decitabine:carboplatin (1:1 mol/mol),0.12639549978364345,10.775,genebody
+HEL,azacitidine,0.11618536872990692,14.163,genebody
+HEL,decitabine,0.11618536872990692,6.8316,genebody
+HEL,RG-108,0.11618536872990692,11.864,genebody
+HEL,decitabine:navitoclax (2:1 mol/mol),0.11618536872990692,7.298,genebody
+HEL,decitabine:carboplatin (1:1 mol/mol),0.11618536872990692,9.5177,genebody
+MONOMAC6,decitabine,0.14652321957764058,13.573,genebody
+MONOMAC6,RG-108,0.14652321957764058,14.628,genebody
+MONOMAC6,decitabine:navitoclax (2:1 mol/mol),0.14652321957764058,11.339,genebody
+MONOMAC6,selumetinib:decitabine (4:1 mol/mol),0.14652321957764058,12.174,genebody
+ME1,decitabine,0.11396441318496746,13.539,genebody
+ME1,RG-108,0.11396441318496746,14.48,genebody
+ME1,decitabine:navitoclax (2:1 mol/mol),0.11396441318496746,7.2203,genebody
+ME1,selumetinib:decitabine (4:1 mol/mol),0.11396441318496746,8.6657,genebody
+ME1,decitabine:carboplatin (1:1 mol/mol),0.11396441318496746,14.09,genebody
+NOMO1,azacitidine,0.13298729309045554,14.069,genebody
+NOMO1,decitabine,0.13298729309045554,7.8482,genebody
+NOMO1,RG-108,0.13298729309045554,10.741,genebody
+NOMO1,decitabine:carboplatin (1:1 mol/mol),0.13298729309045554,9.8516,genebody
+OCIAML2,azacitidine,0.12515066291683408,12.84,genebody
+OCIAML2,decitabine,0.12515066291683408,6.7101,genebody
+OCIAML2,RG-108,0.12515066291683408,16.387,genebody
+OCIAML2,decitabine:carboplatin (1:1 mol/mol),0.12515066291683408,8.3467,genebody
+THP1,azacitidine,0.10400268235736687,12.917,genebody
+THP1,decitabine,0.10400268235736687,13.84,genebody
+THP1,RG-108,0.10400268235736687,14.878,genebody
+THP1,decitabine:navitoclax (2:1 mol/mol),0.10400268235736687,12.107,genebody
+THP1,selumetinib:decitabine (4:1 mol/mol),0.10400268235736687,6.6444,genebody
+THP1,decitabine:carboplatin (1:1 mol/mol),0.10400268235736687,13.195,genebody
+OCIAML3,azacitidine,0.12122116490129406,14.565,genebody
+OCIAML3,decitabine,0.12122116490129406,14.296,genebody
+OCIAML3,decitabine:navitoclax (2:1 mol/mol),0.12122116490129406,14.305,genebody
+OCIAML3,selumetinib:decitabine (4:1 mol/mol),0.12122116490129406,3.5385,genebody
+OCIAML3,decitabine:carboplatin (1:1 mol/mol),0.12122116490129406,14.508,genebody
+EOL1,azacitidine,0.12135504731393314,13.326,genebody
+EOL1,decitabine,0.12135504731393314,2.9783,genebody
+EOL1,RG-108,0.12135504731393314,11.041,genebody
+EOL1,decitabine:navitoclax (2:1 mol/mol),0.12135504731393314,2.047,genebody
+EOL1,selumetinib:decitabine (4:1 mol/mol),0.12135504731393314,3.0543,genebody
+EOL1,decitabine:carboplatin (1:1 mol/mol),0.12135504731393314,4.3402,genebody
+CMK,azacitidine,0.10327329783504982,14.352,genebody
+CMK,decitabine,0.10327329783504982,8.3546,genebody
+CMK,RG-108,0.10327329783504982,14.363,genebody
+CMK,decitabine:navitoclax (2:1 mol/mol),0.10327329783504982,8.8831,genebody
+CMK,selumetinib:decitabine (4:1 mol/mol),0.10327329783504982,7.5666,genebody
+CMK,decitabine:carboplatin (1:1 mol/mol),0.10327329783504982,9.607,genebody
+KASUMI1,decitabine,0.09323718106720565,10.129,genebody
+KASUMI1,RG-108,0.09323718106720565,15.0,genebody
+KASUMI1,decitabine:navitoclax (2:1 mol/mol),0.09323718106720565,7.1835,genebody
+KASUMI1,selumetinib:decitabine (4:1 mol/mol),0.09323718106720565,7.8533,genebody
+KASUMI1,decitabine:carboplatin (1:1 mol/mol),0.09323718106720565,10.405,genebody
+KO52,azacitidine,0.10329502349544245,14.318,genebody
+KO52,decitabine,0.10329502349544245,9.9317,genebody
+KO52,RG-108,0.10329502349544245,12.63,genebody
+KO52,decitabine:navitoclax (2:1 mol/mol),0.10329502349544245,7.447,genebody
+KO52,selumetinib:decitabine (4:1 mol/mol),0.10329502349544245,6.4578,genebody
+KO52,decitabine:carboplatin (1:1 mol/mol),0.10329502349544245,12.689,genebody
+OCIM1,azacitidine,0.15335677793622884,15.357,genebody
+OCIM1,decitabine,0.15335677793622884,8.4816,genebody
+OCIM1,RG-108,0.15335677793622884,13.326,genebody
+OCIM1,decitabine:navitoclax (2:1 mol/mol),0.15335677793622884,6.6512,genebody
+OCIM1,selumetinib:decitabine (4:1 mol/mol),0.15335677793622884,8.2996,genebody
+OCIM1,decitabine:carboplatin (1:1 mol/mol),0.15335677793622884,8.5318,genebody
+SIGM5,azacitidine,0.12894718347629563,14.913,genebody
+SIGM5,decitabine,0.12894718347629563,11.247,genebody
+SIGM5,RG-108,0.12894718347629563,15.316,genebody
+SIGM5,decitabine:navitoclax (2:1 mol/mol),0.12894718347629563,10.855,genebody
+SIGM5,selumetinib:decitabine (4:1 mol/mol),0.12894718347629563,3.504,genebody
+SIGM5,decitabine:carboplatin (1:1 mol/mol),0.12894718347629563,11.596,genebody
+HEL9217,azacitidine,0.12840573786196943,14.551,genebody
+HEL9217,decitabine,0.12840573786196943,8.9849,genebody
+HEL9217,RG-108,0.12840573786196943,12.214,genebody
+HEL9217,decitabine:navitoclax (2:1 mol/mol),0.12840573786196943,8.0628,genebody
+HEL9217,selumetinib:decitabine (4:1 mol/mol),0.12840573786196943,9.8485,genebody
+HEL9217,decitabine:carboplatin (1:1 mol/mol),0.12840573786196943,9.1101,genebody
+BDCM,decitabine:carboplatin (1:1 mol/mol),0.15188999589536922,14.595,genebody
+F36P,azacitidine,0.14455399549870648,14.643,genebody
+F36P,decitabine,0.14455399549870648,10.333,genebody
+F36P,RG-108,0.14455399549870648,13.158,genebody
+F36P,decitabine:navitoclax (2:1 mol/mol),0.14455399549870648,8.6734,genebody
+F36P,selumetinib:decitabine (4:1 mol/mol),0.14455399549870648,7.8079,genebody
+F36P,decitabine:carboplatin (1:1 mol/mol),0.14455399549870648,11.961,genebody
+M07E,azacitidine,0.1309611293753626,14.525,genebody
+M07E,decitabine,0.1309611293753626,8.1452,genebody
+M07E,RG-108,0.1309611293753626,11.014,genebody
+M07E,decitabine:navitoclax (2:1 mol/mol),0.1309611293753626,6.6369,genebody
+M07E,selumetinib:decitabine (4:1 mol/mol),0.1309611293753626,8.1573,genebody
+M07E,decitabine:carboplatin (1:1 mol/mol),0.1309611293753626,9.5702,genebody
+AML193,azacitidine,0.07881034636362737,14.293,genebody
+AML193,decitabine,0.07881034636362737,14.021,genebody
+AML193,RG-108,0.07881034636362737,15.771,genebody
+AML193,decitabine:navitoclax (2:1 mol/mol),0.07881034636362737,9.6624,genebody
+AML193,selumetinib:decitabine (4:1 mol/mol),0.07881034636362737,7.9157,genebody
+AML193,decitabine:carboplatin (1:1 mol/mol),0.07881034636362737,13.27,genebody
+P31FUJ,azacitidine,0.17080567635614557,14.112,sine
+P31FUJ,decitabine,0.17080567635614557,9.3377,sine
+P31FUJ,RG-108,0.17080567635614557,12.322,sine
+P31FUJ,decitabine:navitoclax (2:1 mol/mol),0.17080567635614557,6.9774,sine
+P31FUJ,selumetinib:decitabine (4:1 mol/mol),0.17080567635614557,7.1034,sine
+P31FUJ,decitabine:carboplatin (1:1 mol/mol),0.17080567635614557,10.775,sine
+HEL,azacitidine,0.09830611010284332,14.163,sine
+HEL,decitabine,0.09830611010284332,6.8316,sine
+HEL,RG-108,0.09830611010284332,11.864,sine
+HEL,decitabine:navitoclax (2:1 mol/mol),0.09830611010284332,7.298,sine
+HEL,decitabine:carboplatin (1:1 mol/mol),0.09830611010284332,9.5177,sine
+MONOMAC6,decitabine,0.1306000822030415,13.573,sine
+MONOMAC6,RG-108,0.1306000822030415,14.628,sine
+MONOMAC6,decitabine:navitoclax (2:1 mol/mol),0.1306000822030415,11.339,sine
+MONOMAC6,selumetinib:decitabine (4:1 mol/mol),0.1306000822030415,12.174,sine
+ME1,decitabine,0.13795374104864597,13.539,sine
+ME1,RG-108,0.13795374104864597,14.48,sine
+ME1,decitabine:navitoclax (2:1 mol/mol),0.13795374104864597,7.2203,sine
+ME1,selumetinib:decitabine (4:1 mol/mol),0.13795374104864597,8.6657,sine
+ME1,decitabine:carboplatin (1:1 mol/mol),0.13795374104864597,14.09,sine
+NOMO1,azacitidine,0.16575024842663133,14.069,sine
+NOMO1,decitabine,0.16575024842663133,7.8482,sine
+NOMO1,RG-108,0.16575024842663133,10.741,sine
+NOMO1,decitabine:carboplatin (1:1 mol/mol),0.16575024842663133,9.8516,sine
+OCIAML2,azacitidine,0.1644288509547264,12.84,sine
+OCIAML2,decitabine,0.1644288509547264,6.7101,sine
+OCIAML2,RG-108,0.1644288509547264,16.387,sine
+OCIAML2,decitabine:carboplatin (1:1 mol/mol),0.1644288509547264,8.3467,sine
+THP1,azacitidine,0.10508916920400174,12.917,sine
+THP1,decitabine,0.10508916920400174,13.84,sine
+THP1,RG-108,0.10508916920400174,14.878,sine
+THP1,decitabine:navitoclax (2:1 mol/mol),0.10508916920400174,12.107,sine
+THP1,selumetinib:decitabine (4:1 mol/mol),0.10508916920400174,6.6444,sine
+THP1,decitabine:carboplatin (1:1 mol/mol),0.10508916920400174,13.195,sine
+OCIAML3,azacitidine,0.10923253150057274,14.565,sine
+OCIAML3,decitabine,0.10923253150057274,14.296,sine
+OCIAML3,decitabine:navitoclax (2:1 mol/mol),0.10923253150057274,14.305,sine
+OCIAML3,selumetinib:decitabine (4:1 mol/mol),0.10923253150057274,3.5385,sine
+OCIAML3,decitabine:carboplatin (1:1 mol/mol),0.10923253150057274,14.508,sine
+EOL1,azacitidine,0.10304487179487179,13.326,sine
+EOL1,decitabine,0.10304487179487179,2.9783,sine
+EOL1,RG-108,0.10304487179487179,11.041,sine
+EOL1,decitabine:navitoclax (2:1 mol/mol),0.10304487179487179,2.047,sine
+EOL1,selumetinib:decitabine (4:1 mol/mol),0.10304487179487179,3.0543,sine
+EOL1,decitabine:carboplatin (1:1 mol/mol),0.10304487179487179,4.3402,sine
+CMK,azacitidine,0.11572015053027711,14.352,sine
+CMK,decitabine,0.11572015053027711,8.3546,sine
+CMK,RG-108,0.11572015053027711,14.363,sine
+CMK,decitabine:navitoclax (2:1 mol/mol),0.11572015053027711,8.8831,sine
+CMK,selumetinib:decitabine (4:1 mol/mol),0.11572015053027711,7.5666,sine
+CMK,decitabine:carboplatin (1:1 mol/mol),0.11572015053027711,9.607,sine
+KASUMI1,decitabine,0.034853030377547174,10.129,sine
+KASUMI1,RG-108,0.034853030377547174,15.0,sine
+KASUMI1,decitabine:navitoclax (2:1 mol/mol),0.034853030377547174,7.1835,sine
+KASUMI1,selumetinib:decitabine (4:1 mol/mol),0.034853030377547174,7.8533,sine
+KASUMI1,decitabine:carboplatin (1:1 mol/mol),0.034853030377547174,10.405,sine
+KO52,azacitidine,0.1486817069855939,14.318,sine
+KO52,decitabine,0.1486817069855939,9.9317,sine
+KO52,RG-108,0.1486817069855939,12.63,sine
+KO52,decitabine:navitoclax (2:1 mol/mol),0.1486817069855939,7.447,sine
+KO52,selumetinib:decitabine (4:1 mol/mol),0.1486817069855939,6.4578,sine
+KO52,decitabine:carboplatin (1:1 mol/mol),0.1486817069855939,12.689,sine
+OCIM1,azacitidine,0.18836061314627175,15.357,sine
+OCIM1,decitabine,0.18836061314627175,8.4816,sine
+OCIM1,RG-108,0.18836061314627175,13.326,sine
+OCIM1,decitabine:navitoclax (2:1 mol/mol),0.18836061314627175,6.6512,sine
+OCIM1,selumetinib:decitabine (4:1 mol/mol),0.18836061314627175,8.2996,sine
+OCIM1,decitabine:carboplatin (1:1 mol/mol),0.18836061314627175,8.5318,sine
+SIGM5,azacitidine,0.18188237952658043,14.913,sine
+SIGM5,decitabine,0.18188237952658043,11.247,sine
+SIGM5,RG-108,0.18188237952658043,15.316,sine
+SIGM5,decitabine:navitoclax (2:1 mol/mol),0.18188237952658043,10.855,sine
+SIGM5,selumetinib:decitabine (4:1 mol/mol),0.18188237952658043,3.504,sine
+SIGM5,decitabine:carboplatin (1:1 mol/mol),0.18188237952658043,11.596,sine
+HEL9217,azacitidine,0.10042827881571598,14.551,sine
+HEL9217,decitabine,0.10042827881571598,8.9849,sine
+HEL9217,RG-108,0.10042827881571598,12.214,sine
+HEL9217,decitabine:navitoclax (2:1 mol/mol),0.10042827881571598,8.0628,sine
+HEL9217,selumetinib:decitabine (4:1 mol/mol),0.10042827881571598,9.8485,sine
+HEL9217,decitabine:carboplatin (1:1 mol/mol),0.10042827881571598,9.1101,sine
+BDCM,decitabine:carboplatin (1:1 mol/mol),0.1585523880044428,14.595,sine
+F36P,azacitidine,0.21484641638225255,14.643,sine
+F36P,decitabine,0.21484641638225255,10.333,sine
+F36P,RG-108,0.21484641638225255,13.158,sine
+F36P,decitabine:navitoclax (2:1 mol/mol),0.21484641638225255,8.6734,sine
+F36P,selumetinib:decitabine (4:1 mol/mol),0.21484641638225255,7.8079,sine
+F36P,decitabine:carboplatin (1:1 mol/mol),0.21484641638225255,11.961,sine
+M07E,azacitidine,0.13339371199378963,14.525,sine
+M07E,decitabine,0.13339371199378963,8.1452,sine
+M07E,RG-108,0.13339371199378963,11.014,sine
+M07E,decitabine:navitoclax (2:1 mol/mol),0.13339371199378963,6.6369,sine
+M07E,selumetinib:decitabine (4:1 mol/mol),0.13339371199378963,8.1573,sine
+M07E,decitabine:carboplatin (1:1 mol/mol),0.13339371199378963,9.5702,sine
+AML193,azacitidine,0.08822746628814762,14.293,sine
+AML193,decitabine,0.08822746628814762,14.021,sine
+AML193,RG-108,0.08822746628814762,15.771,sine
+AML193,decitabine:navitoclax (2:1 mol/mol),0.08822746628814762,9.6624,sine
+AML193,selumetinib:decitabine (4:1 mol/mol),0.08822746628814762,7.9157,sine
+AML193,decitabine:carboplatin (1:1 mol/mol),0.08822746628814762,13.27,sine
+P31FUJ,azacitidine,0.15468214976924222,14.112,line
+P31FUJ,decitabine,0.15468214976924222,9.3377,line
+P31FUJ,RG-108,0.15468214976924222,12.322,line
+P31FUJ,decitabine:navitoclax (2:1 mol/mol),0.15468214976924222,6.9774,line
+P31FUJ,selumetinib:decitabine (4:1 mol/mol),0.15468214976924222,7.1034,line
+P31FUJ,decitabine:carboplatin (1:1 mol/mol),0.15468214976924222,10.775,line
+HEL,azacitidine,0.155229531471841,14.163,line
+HEL,decitabine,0.155229531471841,6.8316,line
+HEL,RG-108,0.155229531471841,11.864,line
+HEL,decitabine:navitoclax (2:1 mol/mol),0.155229531471841,7.298,line
+HEL,decitabine:carboplatin (1:1 mol/mol),0.155229531471841,9.5177,line
+MONOMAC6,decitabine,0.12175226586102719,13.573,line
+MONOMAC6,RG-108,0.12175226586102719,14.628,line
+MONOMAC6,decitabine:navitoclax (2:1 mol/mol),0.12175226586102719,11.339,line
+MONOMAC6,selumetinib:decitabine (4:1 mol/mol),0.12175226586102719,12.174,line
+ME1,decitabine,0.17461847389558233,13.539,line
+ME1,RG-108,0.17461847389558233,14.48,line
+ME1,decitabine:navitoclax (2:1 mol/mol),0.17461847389558233,7.2203,line
+ME1,selumetinib:decitabine (4:1 mol/mol),0.17461847389558233,8.6657,line
+ME1,decitabine:carboplatin (1:1 mol/mol),0.17461847389558233,14.09,line
+NOMO1,azacitidine,0.15453137103020914,14.069,line
+NOMO1,decitabine,0.15453137103020914,7.8482,line
+NOMO1,RG-108,0.15453137103020914,10.741,line
+NOMO1,decitabine:carboplatin (1:1 mol/mol),0.15453137103020914,9.8516,line
+OCIAML2,azacitidine,0.14993228864383826,12.84,line
+OCIAML2,decitabine,0.14993228864383826,6.7101,line
+OCIAML2,RG-108,0.14993228864383826,16.387,line
+OCIAML2,decitabine:carboplatin (1:1 mol/mol),0.14993228864383826,8.3467,line
+THP1,azacitidine,0.10279587975614883,12.917,line
+THP1,decitabine,0.10279587975614883,13.84,line
+THP1,RG-108,0.10279587975614883,14.878,line
+THP1,decitabine:navitoclax (2:1 mol/mol),0.10279587975614883,12.107,line
+THP1,selumetinib:decitabine (4:1 mol/mol),0.10279587975614883,6.6444,line
+THP1,decitabine:carboplatin (1:1 mol/mol),0.10279587975614883,13.195,line
+OCIAML3,azacitidine,0.16116232932664254,14.565,line
+OCIAML3,decitabine,0.16116232932664254,14.296,line
+OCIAML3,decitabine:navitoclax (2:1 mol/mol),0.16116232932664254,14.305,line
+OCIAML3,selumetinib:decitabine (4:1 mol/mol),0.16116232932664254,3.5385,line
+OCIAML3,decitabine:carboplatin (1:1 mol/mol),0.16116232932664254,14.508,line
+EOL1,azacitidine,0.09376077214753534,13.326,line
+EOL1,decitabine,0.09376077214753534,2.9783,line
+EOL1,RG-108,0.09376077214753534,11.041,line
+EOL1,decitabine:navitoclax (2:1 mol/mol),0.09376077214753534,2.047,line
+EOL1,selumetinib:decitabine (4:1 mol/mol),0.09376077214753534,3.0543,line
+EOL1,decitabine:carboplatin (1:1 mol/mol),0.09376077214753534,4.3402,line
+CMK,azacitidine,0.11906535726379952,14.352,line
+CMK,decitabine,0.11906535726379952,8.3546,line
+CMK,RG-108,0.11906535726379952,14.363,line
+CMK,decitabine:navitoclax (2:1 mol/mol),0.11906535726379952,8.8831,line
+CMK,selumetinib:decitabine (4:1 mol/mol),0.11906535726379952,7.5666,line
+CMK,decitabine:carboplatin (1:1 mol/mol),0.11906535726379952,9.607,line
+KASUMI1,decitabine,0.052791512154923774,10.129,line
+KASUMI1,RG-108,0.052791512154923774,15.0,line
+KASUMI1,decitabine:navitoclax (2:1 mol/mol),0.052791512154923774,7.1835,line
+KASUMI1,selumetinib:decitabine (4:1 mol/mol),0.052791512154923774,7.8533,line
+KASUMI1,decitabine:carboplatin (1:1 mol/mol),0.052791512154923774,10.405,line
+KO52,azacitidine,0.13083284111045482,14.318,line
+KO52,decitabine,0.13083284111045482,9.9317,line
+KO52,RG-108,0.13083284111045482,12.63,line
+KO52,decitabine:navitoclax (2:1 mol/mol),0.13083284111045482,7.447,line
+KO52,selumetinib:decitabine (4:1 mol/mol),0.13083284111045482,6.4578,line
+KO52,decitabine:carboplatin (1:1 mol/mol),0.13083284111045482,12.689,line
+OCIM1,azacitidine,0.20494263018534864,15.357,line
+OCIM1,decitabine,0.20494263018534864,8.4816,line
+OCIM1,RG-108,0.20494263018534864,13.326,line
+OCIM1,decitabine:navitoclax (2:1 mol/mol),0.20494263018534864,6.6512,line
+OCIM1,selumetinib:decitabine (4:1 mol/mol),0.20494263018534864,8.2996,line
+OCIM1,decitabine:carboplatin (1:1 mol/mol),0.20494263018534864,8.5318,line
+SIGM5,azacitidine,0.1854100589034889,14.913,line
+SIGM5,decitabine,0.1854100589034889,11.247,line
+SIGM5,RG-108,0.1854100589034889,15.316,line
+SIGM5,decitabine:navitoclax (2:1 mol/mol),0.1854100589034889,10.855,line
+SIGM5,selumetinib:decitabine (4:1 mol/mol),0.1854100589034889,3.504,line
+SIGM5,decitabine:carboplatin (1:1 mol/mol),0.1854100589034889,11.596,line
+HEL9217,azacitidine,0.1644927536231884,14.551,line
+HEL9217,decitabine,0.1644927536231884,8.9849,line
+HEL9217,RG-108,0.1644927536231884,12.214,line
+HEL9217,decitabine:navitoclax (2:1 mol/mol),0.1644927536231884,8.0628,line
+HEL9217,selumetinib:decitabine (4:1 mol/mol),0.1644927536231884,9.8485,line
+HEL9217,decitabine:carboplatin (1:1 mol/mol),0.1644927536231884,9.1101,line
+BDCM,decitabine:carboplatin (1:1 mol/mol),0.275,14.595,line
+F36P,azacitidine,0.2039091389329107,14.643,line
+F36P,decitabine,0.2039091389329107,10.333,line
+F36P,RG-108,0.2039091389329107,13.158,line
+F36P,decitabine:navitoclax (2:1 mol/mol),0.2039091389329107,8.6734,line
+F36P,selumetinib:decitabine (4:1 mol/mol),0.2039091389329107,7.8079,line
+F36P,decitabine:carboplatin (1:1 mol/mol),0.2039091389329107,11.961,line
+M07E,azacitidine,0.18031582813073815,14.525,line
+M07E,decitabine,0.18031582813073815,8.1452,line
+M07E,RG-108,0.18031582813073815,11.014,line
+M07E,decitabine:navitoclax (2:1 mol/mol),0.18031582813073815,6.6369,line
+M07E,selumetinib:decitabine (4:1 mol/mol),0.18031582813073815,8.1573,line
+M07E,decitabine:carboplatin (1:1 mol/mol),0.18031582813073815,9.5702,line
+AML193,azacitidine,0.09821816601477619,14.293,line
+AML193,decitabine,0.09821816601477619,14.021,line
+AML193,RG-108,0.09821816601477619,15.771,line
+AML193,decitabine:navitoclax (2:1 mol/mol),0.09821816601477619,9.6624,line
+AML193,selumetinib:decitabine (4:1 mol/mol),0.09821816601477619,7.9157,line
+AML193,decitabine:carboplatin (1:1 mol/mol),0.09821816601477619,13.27,line
+P31FUJ,azacitidine,0.17432041642567958,14.112,ltr
+P31FUJ,decitabine,0.17432041642567958,9.3377,ltr
+P31FUJ,RG-108,0.17432041642567958,12.322,ltr
+P31FUJ,decitabine:navitoclax (2:1 mol/mol),0.17432041642567958,6.9774,ltr
+P31FUJ,selumetinib:decitabine (4:1 mol/mol),0.17432041642567958,7.1034,ltr
+P31FUJ,decitabine:carboplatin (1:1 mol/mol),0.17432041642567958,10.775,ltr
+HEL,azacitidine,0.16410923276983094,14.163,ltr
+HEL,decitabine,0.16410923276983094,6.8316,ltr
+HEL,RG-108,0.16410923276983094,11.864,ltr
+HEL,decitabine:navitoclax (2:1 mol/mol),0.16410923276983094,7.298,ltr
+HEL,decitabine:carboplatin (1:1 mol/mol),0.16410923276983094,9.5177,ltr
+MONOMAC6,decitabine,0.1225349946162129,13.573,ltr
+MONOMAC6,RG-108,0.1225349946162129,14.628,ltr
+MONOMAC6,decitabine:navitoclax (2:1 mol/mol),0.1225349946162129,11.339,ltr
+MONOMAC6,selumetinib:decitabine (4:1 mol/mol),0.1225349946162129,12.174,ltr
+ME1,decitabine,0.14214854457642606,13.539,ltr
+ME1,RG-108,0.14214854457642606,14.48,ltr
+ME1,decitabine:navitoclax (2:1 mol/mol),0.14214854457642606,7.2203,ltr
+ME1,selumetinib:decitabine (4:1 mol/mol),0.14214854457642606,8.6657,ltr
+ME1,decitabine:carboplatin (1:1 mol/mol),0.14214854457642606,14.09,ltr
+NOMO1,azacitidine,0.16388105057521163,14.069,ltr
+NOMO1,decitabine,0.16388105057521163,7.8482,ltr
+NOMO1,RG-108,0.16388105057521163,10.741,ltr
+NOMO1,decitabine:carboplatin (1:1 mol/mol),0.16388105057521163,9.8516,ltr
+OCIAML2,azacitidine,0.13489437515907354,12.84,ltr
+OCIAML2,decitabine,0.13489437515907354,6.7101,ltr
+OCIAML2,RG-108,0.13489437515907354,16.387,ltr
+OCIAML2,decitabine:carboplatin (1:1 mol/mol),0.13489437515907354,8.3467,ltr
+THP1,azacitidine,0.13075768942235558,12.917,ltr
+THP1,decitabine,0.13075768942235558,13.84,ltr
+THP1,RG-108,0.13075768942235558,14.878,ltr
+THP1,decitabine:navitoclax (2:1 mol/mol),0.13075768942235558,12.107,ltr
+THP1,selumetinib:decitabine (4:1 mol/mol),0.13075768942235558,6.6444,ltr
+THP1,decitabine:carboplatin (1:1 mol/mol),0.13075768942235558,13.195,ltr
+OCIAML3,azacitidine,0.12922147173835763,14.565,ltr
+OCIAML3,decitabine,0.12922147173835763,14.296,ltr
+OCIAML3,decitabine:navitoclax (2:1 mol/mol),0.12922147173835763,14.305,ltr
+OCIAML3,selumetinib:decitabine (4:1 mol/mol),0.12922147173835763,3.5385,ltr
+OCIAML3,decitabine:carboplatin (1:1 mol/mol),0.12922147173835763,14.508,ltr
+EOL1,azacitidine,0.13328853046594982,13.326,ltr
+EOL1,decitabine,0.13328853046594982,2.9783,ltr
+EOL1,RG-108,0.13328853046594982,11.041,ltr
+EOL1,decitabine:navitoclax (2:1 mol/mol),0.13328853046594982,2.047,ltr
+EOL1,selumetinib:decitabine (4:1 mol/mol),0.13328853046594982,3.0543,ltr
+EOL1,decitabine:carboplatin (1:1 mol/mol),0.13328853046594982,4.3402,ltr
+CMK,azacitidine,0.1429942903339902,14.352,ltr
+CMK,decitabine,0.1429942903339902,8.3546,ltr
+CMK,RG-108,0.1429942903339902,14.363,ltr
+CMK,decitabine:navitoclax (2:1 mol/mol),0.1429942903339902,8.8831,ltr
+CMK,selumetinib:decitabine (4:1 mol/mol),0.1429942903339902,7.5666,ltr
+CMK,decitabine:carboplatin (1:1 mol/mol),0.1429942903339902,9.607,ltr
+KASUMI1,decitabine,0.15439494280553884,10.129,ltr
+KASUMI1,RG-108,0.15439494280553884,15.0,ltr
+KASUMI1,decitabine:navitoclax (2:1 mol/mol),0.15439494280553884,7.1835,ltr
+KASUMI1,selumetinib:decitabine (4:1 mol/mol),0.15439494280553884,7.8533,ltr
+KASUMI1,decitabine:carboplatin (1:1 mol/mol),0.15439494280553884,10.405,ltr
+KO52,azacitidine,0.12128032008002,14.318,ltr
+KO52,decitabine,0.12128032008002,9.9317,ltr
+KO52,RG-108,0.12128032008002,12.63,ltr
+KO52,decitabine:navitoclax (2:1 mol/mol),0.12128032008002,7.447,ltr
+KO52,selumetinib:decitabine (4:1 mol/mol),0.12128032008002,6.4578,ltr
+KO52,decitabine:carboplatin (1:1 mol/mol),0.12128032008002,12.689,ltr
+OCIM1,azacitidine,0.16643580181140116,15.357,ltr
+OCIM1,decitabine,0.16643580181140116,8.4816,ltr
+OCIM1,RG-108,0.16643580181140116,13.326,ltr
+OCIM1,decitabine:navitoclax (2:1 mol/mol),0.16643580181140116,6.6512,ltr
+OCIM1,selumetinib:decitabine (4:1 mol/mol),0.16643580181140116,8.2996,ltr
+OCIM1,decitabine:carboplatin (1:1 mol/mol),0.16643580181140116,8.5318,ltr
+SIGM5,azacitidine,0.17008952080042128,14.913,ltr
+SIGM5,decitabine,0.17008952080042128,11.247,ltr
+SIGM5,RG-108,0.17008952080042128,15.316,ltr
+SIGM5,decitabine:navitoclax (2:1 mol/mol),0.17008952080042128,10.855,ltr
+SIGM5,selumetinib:decitabine (4:1 mol/mol),0.17008952080042128,3.504,ltr
+SIGM5,decitabine:carboplatin (1:1 mol/mol),0.17008952080042128,11.596,ltr
+HEL9217,azacitidine,0.15269086357947434,14.551,ltr
+HEL9217,decitabine,0.15269086357947434,8.9849,ltr
+HEL9217,RG-108,0.15269086357947434,12.214,ltr
+HEL9217,decitabine:navitoclax (2:1 mol/mol),0.15269086357947434,8.0628,ltr
+HEL9217,selumetinib:decitabine (4:1 mol/mol),0.15269086357947434,9.8485,ltr
+HEL9217,decitabine:carboplatin (1:1 mol/mol),0.15269086357947434,9.1101,ltr
+BDCM,decitabine:carboplatin (1:1 mol/mol),0.19880624426078972,14.595,ltr
+F36P,azacitidine,0.19213174748398903,14.643,ltr
+F36P,decitabine,0.19213174748398903,10.333,ltr
+F36P,RG-108,0.19213174748398903,13.158,ltr
+F36P,decitabine:navitoclax (2:1 mol/mol),0.19213174748398903,8.6734,ltr
+F36P,selumetinib:decitabine (4:1 mol/mol),0.19213174748398903,7.8079,ltr
+F36P,decitabine:carboplatin (1:1 mol/mol),0.19213174748398903,11.961,ltr
+M07E,azacitidine,0.16907353921350812,14.525,ltr
+M07E,decitabine,0.16907353921350812,8.1452,ltr
+M07E,RG-108,0.16907353921350812,11.014,ltr
+M07E,decitabine:navitoclax (2:1 mol/mol),0.16907353921350812,6.6369,ltr
+M07E,selumetinib:decitabine (4:1 mol/mol),0.16907353921350812,8.1573,ltr
+M07E,decitabine:carboplatin (1:1 mol/mol),0.16907353921350812,9.5702,ltr
+AML193,azacitidine,0.08924705316333895,14.293,ltr
+AML193,decitabine,0.08924705316333895,14.021,ltr
+AML193,RG-108,0.08924705316333895,15.771,ltr
+AML193,decitabine:navitoclax (2:1 mol/mol),0.08924705316333895,9.6624,ltr
+AML193,selumetinib:decitabine (4:1 mol/mol),0.08924705316333895,7.9157,ltr
+AML193,decitabine:carboplatin (1:1 mol/mol),0.08924705316333895,13.27,ltr
+P31FUJ,azacitidine,0.1434838952558153,14.112,bivalent_domain
+P31FUJ,decitabine,0.1434838952558153,9.3377,bivalent_domain
+P31FUJ,RG-108,0.1434838952558153,12.322,bivalent_domain
+P31FUJ,decitabine:navitoclax (2:1 mol/mol),0.1434838952558153,6.9774,bivalent_domain
+P31FUJ,selumetinib:decitabine (4:1 mol/mol),0.1434838952558153,7.1034,bivalent_domain
+P31FUJ,decitabine:carboplatin (1:1 mol/mol),0.1434838952558153,10.775,bivalent_domain
+HEL,azacitidine,0.16735849896503371,14.163,bivalent_domain
+HEL,decitabine,0.16735849896503371,6.8316,bivalent_domain
+HEL,RG-108,0.16735849896503371,11.864,bivalent_domain
+HEL,decitabine:navitoclax (2:1 mol/mol),0.16735849896503371,7.298,bivalent_domain
+HEL,decitabine:carboplatin (1:1 mol/mol),0.16735849896503371,9.5177,bivalent_domain
+MONOMAC6,decitabine,0.12237180409825117,13.573,bivalent_domain
+MONOMAC6,RG-108,0.12237180409825117,14.628,bivalent_domain
+MONOMAC6,decitabine:navitoclax (2:1 mol/mol),0.12237180409825117,11.339,bivalent_domain
+MONOMAC6,selumetinib:decitabine (4:1 mol/mol),0.12237180409825117,12.174,bivalent_domain
+ME1,decitabine,0.15467426438434595,13.539,bivalent_domain
+ME1,RG-108,0.15467426438434595,14.48,bivalent_domain
+ME1,decitabine:navitoclax (2:1 mol/mol),0.15467426438434595,7.2203,bivalent_domain
+ME1,selumetinib:decitabine (4:1 mol/mol),0.15467426438434595,8.6657,bivalent_domain
+ME1,decitabine:carboplatin (1:1 mol/mol),0.15467426438434595,14.09,bivalent_domain
+NOMO1,azacitidine,0.1300061707027076,14.069,bivalent_domain
+NOMO1,decitabine,0.1300061707027076,7.8482,bivalent_domain
+NOMO1,RG-108,0.1300061707027076,10.741,bivalent_domain
+NOMO1,decitabine:carboplatin (1:1 mol/mol),0.1300061707027076,9.8516,bivalent_domain
+OCIAML2,azacitidine,0.1709292285705779,12.84,bivalent_domain
+OCIAML2,decitabine,0.1709292285705779,6.7101,bivalent_domain
+OCIAML2,RG-108,0.1709292285705779,16.387,bivalent_domain
+OCIAML2,decitabine:carboplatin (1:1 mol/mol),0.1709292285705779,8.3467,bivalent_domain
+THP1,azacitidine,0.09596085361207034,12.917,bivalent_domain
+THP1,decitabine,0.09596085361207034,13.84,bivalent_domain
+THP1,RG-108,0.09596085361207034,14.878,bivalent_domain
+THP1,decitabine:navitoclax (2:1 mol/mol),0.09596085361207034,12.107,bivalent_domain
+THP1,selumetinib:decitabine (4:1 mol/mol),0.09596085361207034,6.6444,bivalent_domain
+THP1,decitabine:carboplatin (1:1 mol/mol),0.09596085361207034,13.195,bivalent_domain
+OCIAML3,azacitidine,0.12124033078827297,14.565,bivalent_domain
+OCIAML3,decitabine,0.12124033078827297,14.296,bivalent_domain
+OCIAML3,decitabine:navitoclax (2:1 mol/mol),0.12124033078827297,14.305,bivalent_domain
+OCIAML3,selumetinib:decitabine (4:1 mol/mol),0.12124033078827297,3.5385,bivalent_domain
+OCIAML3,decitabine:carboplatin (1:1 mol/mol),0.12124033078827297,14.508,bivalent_domain
+EOL1,azacitidine,0.18010603016291848,13.326,bivalent_domain
+EOL1,decitabine,0.18010603016291848,2.9783,bivalent_domain
+EOL1,RG-108,0.18010603016291848,11.041,bivalent_domain
+EOL1,decitabine:navitoclax (2:1 mol/mol),0.18010603016291848,2.047,bivalent_domain
+EOL1,selumetinib:decitabine (4:1 mol/mol),0.18010603016291848,3.0543,bivalent_domain
+EOL1,decitabine:carboplatin (1:1 mol/mol),0.18010603016291848,4.3402,bivalent_domain
+CMK,azacitidine,0.08370891600605683,14.352,bivalent_domain
+CMK,decitabine,0.08370891600605683,8.3546,bivalent_domain
+CMK,RG-108,0.08370891600605683,14.363,bivalent_domain
+CMK,decitabine:navitoclax (2:1 mol/mol),0.08370891600605683,8.8831,bivalent_domain
+CMK,selumetinib:decitabine (4:1 mol/mol),0.08370891600605683,7.5666,bivalent_domain
+CMK,decitabine:carboplatin (1:1 mol/mol),0.08370891600605683,9.607,bivalent_domain
+KASUMI1,decitabine,0.11175556794612437,10.129,bivalent_domain
+KASUMI1,RG-108,0.11175556794612437,15.0,bivalent_domain
+KASUMI1,decitabine:navitoclax (2:1 mol/mol),0.11175556794612437,7.1835,bivalent_domain
+KASUMI1,selumetinib:decitabine (4:1 mol/mol),0.11175556794612437,7.8533,bivalent_domain
+KASUMI1,decitabine:carboplatin (1:1 mol/mol),0.11175556794612437,10.405,bivalent_domain
+KO52,azacitidine,0.10585704468722923,14.318,bivalent_domain
+KO52,decitabine,0.10585704468722923,9.9317,bivalent_domain
+KO52,RG-108,0.10585704468722923,12.63,bivalent_domain
+KO52,decitabine:navitoclax (2:1 mol/mol),0.10585704468722923,7.447,bivalent_domain
+KO52,selumetinib:decitabine (4:1 mol/mol),0.10585704468722923,6.4578,bivalent_domain
+KO52,decitabine:carboplatin (1:1 mol/mol),0.10585704468722923,12.689,bivalent_domain
+OCIM1,azacitidine,0.18238165049084196,15.357,bivalent_domain
+OCIM1,decitabine,0.18238165049084196,8.4816,bivalent_domain
+OCIM1,RG-108,0.18238165049084196,13.326,bivalent_domain
+OCIM1,decitabine:navitoclax (2:1 mol/mol),0.18238165049084196,6.6512,bivalent_domain
+OCIM1,selumetinib:decitabine (4:1 mol/mol),0.18238165049084196,8.2996,bivalent_domain
+OCIM1,decitabine:carboplatin (1:1 mol/mol),0.18238165049084196,8.5318,bivalent_domain
+SIGM5,azacitidine,0.10953713257832821,14.913,bivalent_domain
+SIGM5,decitabine,0.10953713257832821,11.247,bivalent_domain
+SIGM5,RG-108,0.10953713257832821,15.316,bivalent_domain
+SIGM5,decitabine:navitoclax (2:1 mol/mol),0.10953713257832821,10.855,bivalent_domain
+SIGM5,selumetinib:decitabine (4:1 mol/mol),0.10953713257832821,3.504,bivalent_domain
+SIGM5,decitabine:carboplatin (1:1 mol/mol),0.10953713257832821,11.596,bivalent_domain
+HEL9217,azacitidine,0.18530435979127194,14.551,bivalent_domain
+HEL9217,decitabine,0.18530435979127194,8.9849,bivalent_domain
+HEL9217,RG-108,0.18530435979127194,12.214,bivalent_domain
+HEL9217,decitabine:navitoclax (2:1 mol/mol),0.18530435979127194,8.0628,bivalent_domain
+HEL9217,selumetinib:decitabine (4:1 mol/mol),0.18530435979127194,9.8485,bivalent_domain
+HEL9217,decitabine:carboplatin (1:1 mol/mol),0.18530435979127194,9.1101,bivalent_domain
+BDCM,decitabine:carboplatin (1:1 mol/mol),0.11800929207024174,14.595,bivalent_domain
+F36P,azacitidine,0.12241158550046359,14.643,bivalent_domain
+F36P,decitabine,0.12241158550046359,10.333,bivalent_domain
+F36P,RG-108,0.12241158550046359,13.158,bivalent_domain
+F36P,decitabine:navitoclax (2:1 mol/mol),0.12241158550046359,8.6734,bivalent_domain
+F36P,selumetinib:decitabine (4:1 mol/mol),0.12241158550046359,7.8079,bivalent_domain
+F36P,decitabine:carboplatin (1:1 mol/mol),0.12241158550046359,11.961,bivalent_domain
+M07E,azacitidine,0.19729171668667467,14.525,bivalent_domain
+M07E,decitabine,0.19729171668667467,8.1452,bivalent_domain
+M07E,RG-108,0.19729171668667467,11.014,bivalent_domain
+M07E,decitabine:navitoclax (2:1 mol/mol),0.19729171668667467,6.6369,bivalent_domain
+M07E,selumetinib:decitabine (4:1 mol/mol),0.19729171668667467,8.1573,bivalent_domain
+M07E,decitabine:carboplatin (1:1 mol/mol),0.19729171668667467,9.5702,bivalent_domain
+AML193,azacitidine,0.09975217376594377,14.293,bivalent_domain
+AML193,decitabine,0.09975217376594377,14.021,bivalent_domain
+AML193,RG-108,0.09975217376594377,15.771,bivalent_domain
+AML193,decitabine:navitoclax (2:1 mol/mol),0.09975217376594377,9.6624,bivalent_domain
+AML193,selumetinib:decitabine (4:1 mol/mol),0.09975217376594377,7.9157,bivalent_domain
+AML193,decitabine:carboplatin (1:1 mol/mol),0.09975217376594377,13.27,bivalent_domain
+P31FUJ,azacitidine,0.11480933988205935,14.112,bivalent_promoter
+P31FUJ,decitabine,0.11480933988205935,9.3377,bivalent_promoter
+P31FUJ,RG-108,0.11480933988205935,12.322,bivalent_promoter
+P31FUJ,decitabine:navitoclax (2:1 mol/mol),0.11480933988205935,6.9774,bivalent_promoter
+P31FUJ,selumetinib:decitabine (4:1 mol/mol),0.11480933988205935,7.1034,bivalent_promoter
+P31FUJ,decitabine:carboplatin (1:1 mol/mol),0.11480933988205935,10.775,bivalent_promoter
+HEL,azacitidine,0.1368779727639582,14.163,bivalent_promoter
+HEL,decitabine,0.1368779727639582,6.8316,bivalent_promoter
+HEL,RG-108,0.1368779727639582,11.864,bivalent_promoter
+HEL,decitabine:navitoclax (2:1 mol/mol),0.1368779727639582,7.298,bivalent_promoter
+HEL,decitabine:carboplatin (1:1 mol/mol),0.1368779727639582,9.5177,bivalent_promoter
+MONOMAC6,decitabine,0.10075711097777208,13.573,bivalent_promoter
+MONOMAC6,RG-108,0.10075711097777208,14.628,bivalent_promoter
+MONOMAC6,decitabine:navitoclax (2:1 mol/mol),0.10075711097777208,11.339,bivalent_promoter
+MONOMAC6,selumetinib:decitabine (4:1 mol/mol),0.10075711097777208,12.174,bivalent_promoter
+ME1,decitabine,0.11916532212674946,13.539,bivalent_promoter
+ME1,RG-108,0.11916532212674946,14.48,bivalent_promoter
+ME1,decitabine:navitoclax (2:1 mol/mol),0.11916532212674946,7.2203,bivalent_promoter
+ME1,selumetinib:decitabine (4:1 mol/mol),0.11916532212674946,8.6657,bivalent_promoter
+ME1,decitabine:carboplatin (1:1 mol/mol),0.11916532212674946,14.09,bivalent_promoter
+NOMO1,azacitidine,0.1003640199923749,14.069,bivalent_promoter
+NOMO1,decitabine,0.1003640199923749,7.8482,bivalent_promoter
+NOMO1,RG-108,0.1003640199923749,10.741,bivalent_promoter
+NOMO1,decitabine:carboplatin (1:1 mol/mol),0.1003640199923749,9.8516,bivalent_promoter
+OCIAML2,azacitidine,0.13901247350795165,12.84,bivalent_promoter
+OCIAML2,decitabine,0.13901247350795165,6.7101,bivalent_promoter
+OCIAML2,RG-108,0.13901247350795165,16.387,bivalent_promoter
+OCIAML2,decitabine:carboplatin (1:1 mol/mol),0.13901247350795165,8.3467,bivalent_promoter
+THP1,azacitidine,0.07813472211851963,12.917,bivalent_promoter
+THP1,decitabine,0.07813472211851963,13.84,bivalent_promoter
+THP1,RG-108,0.07813472211851963,14.878,bivalent_promoter
+THP1,decitabine:navitoclax (2:1 mol/mol),0.07813472211851963,12.107,bivalent_promoter
+THP1,selumetinib:decitabine (4:1 mol/mol),0.07813472211851963,6.6444,bivalent_promoter
+THP1,decitabine:carboplatin (1:1 mol/mol),0.07813472211851963,13.195,bivalent_promoter
+OCIAML3,azacitidine,0.09755115884680611,14.565,bivalent_promoter
+OCIAML3,decitabine,0.09755115884680611,14.296,bivalent_promoter
+OCIAML3,decitabine:navitoclax (2:1 mol/mol),0.09755115884680611,14.305,bivalent_promoter
+OCIAML3,selumetinib:decitabine (4:1 mol/mol),0.09755115884680611,3.5385,bivalent_promoter
+OCIAML3,decitabine:carboplatin (1:1 mol/mol),0.09755115884680611,14.508,bivalent_promoter
+EOL1,azacitidine,0.14540085448605178,13.326,bivalent_promoter
+EOL1,decitabine,0.14540085448605178,2.9783,bivalent_promoter
+EOL1,RG-108,0.14540085448605178,11.041,bivalent_promoter
+EOL1,decitabine:navitoclax (2:1 mol/mol),0.14540085448605178,2.047,bivalent_promoter
+EOL1,selumetinib:decitabine (4:1 mol/mol),0.14540085448605178,3.0543,bivalent_promoter
+EOL1,decitabine:carboplatin (1:1 mol/mol),0.14540085448605178,4.3402,bivalent_promoter
+CMK,azacitidine,0.06606232384750198,14.352,bivalent_promoter
+CMK,decitabine,0.06606232384750198,8.3546,bivalent_promoter
+CMK,RG-108,0.06606232384750198,14.363,bivalent_promoter
+CMK,decitabine:navitoclax (2:1 mol/mol),0.06606232384750198,8.8831,bivalent_promoter
+CMK,selumetinib:decitabine (4:1 mol/mol),0.06606232384750198,7.5666,bivalent_promoter
+CMK,decitabine:carboplatin (1:1 mol/mol),0.06606232384750198,9.607,bivalent_promoter
+KASUMI1,decitabine,0.09730568602115251,10.129,bivalent_promoter
+KASUMI1,RG-108,0.09730568602115251,15.0,bivalent_promoter
+KASUMI1,decitabine:navitoclax (2:1 mol/mol),0.09730568602115251,7.1835,bivalent_promoter
+KASUMI1,selumetinib:decitabine (4:1 mol/mol),0.09730568602115251,7.8533,bivalent_promoter
+KASUMI1,decitabine:carboplatin (1:1 mol/mol),0.09730568602115251,10.405,bivalent_promoter
+KO52,azacitidine,0.08531404171527027,14.318,bivalent_promoter
+KO52,decitabine,0.08531404171527027,9.9317,bivalent_promoter
+KO52,RG-108,0.08531404171527027,12.63,bivalent_promoter
+KO52,decitabine:navitoclax (2:1 mol/mol),0.08531404171527027,7.447,bivalent_promoter
+KO52,selumetinib:decitabine (4:1 mol/mol),0.08531404171527027,6.4578,bivalent_promoter
+KO52,decitabine:carboplatin (1:1 mol/mol),0.08531404171527027,12.689,bivalent_promoter
+OCIM1,azacitidine,0.14373519100775395,15.357,bivalent_promoter
+OCIM1,decitabine,0.14373519100775395,8.4816,bivalent_promoter
+OCIM1,RG-108,0.14373519100775395,13.326,bivalent_promoter
+OCIM1,decitabine:navitoclax (2:1 mol/mol),0.14373519100775395,6.6512,bivalent_promoter
+OCIM1,selumetinib:decitabine (4:1 mol/mol),0.14373519100775395,8.2996,bivalent_promoter
+OCIM1,decitabine:carboplatin (1:1 mol/mol),0.14373519100775395,8.5318,bivalent_promoter
+SIGM5,azacitidine,0.08575676169114003,14.913,bivalent_promoter
+SIGM5,decitabine,0.08575676169114003,11.247,bivalent_promoter
+SIGM5,RG-108,0.08575676169114003,15.316,bivalent_promoter
+SIGM5,decitabine:navitoclax (2:1 mol/mol),0.08575676169114003,10.855,bivalent_promoter
+SIGM5,selumetinib:decitabine (4:1 mol/mol),0.08575676169114003,3.504,bivalent_promoter
+SIGM5,decitabine:carboplatin (1:1 mol/mol),0.08575676169114003,11.596,bivalent_promoter
+HEL9217,azacitidine,0.1541520900548969,14.551,bivalent_promoter
+HEL9217,decitabine,0.1541520900548969,8.9849,bivalent_promoter
+HEL9217,RG-108,0.1541520900548969,12.214,bivalent_promoter
+HEL9217,decitabine:navitoclax (2:1 mol/mol),0.1541520900548969,8.0628,bivalent_promoter
+HEL9217,selumetinib:decitabine (4:1 mol/mol),0.1541520900548969,9.8485,bivalent_promoter
+HEL9217,decitabine:carboplatin (1:1 mol/mol),0.1541520900548969,9.1101,bivalent_promoter
+BDCM,decitabine:carboplatin (1:1 mol/mol),0.09337494826872672,14.595,bivalent_promoter
+F36P,azacitidine,0.09340124763921479,14.643,bivalent_promoter
+F36P,decitabine,0.09340124763921479,10.333,bivalent_promoter
+F36P,RG-108,0.09340124763921479,13.158,bivalent_promoter
+F36P,decitabine:navitoclax (2:1 mol/mol),0.09340124763921479,8.6734,bivalent_promoter
+F36P,selumetinib:decitabine (4:1 mol/mol),0.09340124763921479,7.8079,bivalent_promoter
+F36P,decitabine:carboplatin (1:1 mol/mol),0.09340124763921479,11.961,bivalent_promoter
+M07E,azacitidine,0.16595936609467576,14.525,bivalent_promoter
+M07E,decitabine,0.16595936609467576,8.1452,bivalent_promoter
+M07E,RG-108,0.16595936609467576,11.014,bivalent_promoter
+M07E,decitabine:navitoclax (2:1 mol/mol),0.16595936609467576,6.6369,bivalent_promoter
+M07E,selumetinib:decitabine (4:1 mol/mol),0.16595936609467576,8.1573,bivalent_promoter
+M07E,decitabine:carboplatin (1:1 mol/mol),0.16595936609467576,9.5702,bivalent_promoter
+AML193,azacitidine,0.08660397468935091,14.293,bivalent_promoter
+AML193,decitabine,0.08660397468935091,14.021,bivalent_promoter
+AML193,RG-108,0.08660397468935091,15.771,bivalent_promoter
+AML193,decitabine:navitoclax (2:1 mol/mol),0.08660397468935091,9.6624,bivalent_promoter
+AML193,selumetinib:decitabine (4:1 mol/mol),0.08660397468935091,7.9157,bivalent_promoter
+AML193,decitabine:carboplatin (1:1 mol/mol),0.08660397468935091,13.27,bivalent_promoter
+P31FUJ,azacitidine,0.03212179112625657,14.112,nonbivalent_promoter
+P31FUJ,decitabine,0.03212179112625657,9.3377,nonbivalent_promoter
+P31FUJ,RG-108,0.03212179112625657,12.322,nonbivalent_promoter
+P31FUJ,decitabine:navitoclax (2:1 mol/mol),0.03212179112625657,6.9774,nonbivalent_promoter
+P31FUJ,selumetinib:decitabine (4:1 mol/mol),0.03212179112625657,7.1034,nonbivalent_promoter
+P31FUJ,decitabine:carboplatin (1:1 mol/mol),0.03212179112625657,10.775,nonbivalent_promoter
+HEL,azacitidine,0.029182278886990227,14.163,nonbivalent_promoter
+HEL,decitabine,0.029182278886990227,6.8316,nonbivalent_promoter
+HEL,RG-108,0.029182278886990227,11.864,nonbivalent_promoter
+HEL,decitabine:navitoclax (2:1 mol/mol),0.029182278886990227,7.298,nonbivalent_promoter
+HEL,decitabine:carboplatin (1:1 mol/mol),0.029182278886990227,9.5177,nonbivalent_promoter
+MONOMAC6,decitabine,0.020182641480407274,13.573,nonbivalent_promoter
+MONOMAC6,RG-108,0.020182641480407274,14.628,nonbivalent_promoter
+MONOMAC6,decitabine:navitoclax (2:1 mol/mol),0.020182641480407274,11.339,nonbivalent_promoter
+MONOMAC6,selumetinib:decitabine (4:1 mol/mol),0.020182641480407274,12.174,nonbivalent_promoter
+ME1,decitabine,0.02232573852820603,13.539,nonbivalent_promoter
+ME1,RG-108,0.02232573852820603,14.48,nonbivalent_promoter
+ME1,decitabine:navitoclax (2:1 mol/mol),0.02232573852820603,7.2203,nonbivalent_promoter
+ME1,selumetinib:decitabine (4:1 mol/mol),0.02232573852820603,8.6657,nonbivalent_promoter
+ME1,decitabine:carboplatin (1:1 mol/mol),0.02232573852820603,14.09,nonbivalent_promoter
+NOMO1,azacitidine,0.03485408388153665,14.069,nonbivalent_promoter
+NOMO1,decitabine,0.03485408388153665,7.8482,nonbivalent_promoter
+NOMO1,RG-108,0.03485408388153665,10.741,nonbivalent_promoter
+NOMO1,decitabine:carboplatin (1:1 mol/mol),0.03485408388153665,9.8516,nonbivalent_promoter
+OCIAML2,azacitidine,0.028489940804120116,12.84,nonbivalent_promoter
+OCIAML2,decitabine,0.028489940804120116,6.7101,nonbivalent_promoter
+OCIAML2,RG-108,0.028489940804120116,16.387,nonbivalent_promoter
+OCIAML2,decitabine:carboplatin (1:1 mol/mol),0.028489940804120116,8.3467,nonbivalent_promoter
+THP1,azacitidine,0.022277792939053527,12.917,nonbivalent_promoter
+THP1,decitabine,0.022277792939053527,13.84,nonbivalent_promoter
+THP1,RG-108,0.022277792939053527,14.878,nonbivalent_promoter
+THP1,decitabine:navitoclax (2:1 mol/mol),0.022277792939053527,12.107,nonbivalent_promoter
+THP1,selumetinib:decitabine (4:1 mol/mol),0.022277792939053527,6.6444,nonbivalent_promoter
+THP1,decitabine:carboplatin (1:1 mol/mol),0.022277792939053527,13.195,nonbivalent_promoter
+OCIAML3,azacitidine,0.021479033449610316,14.565,nonbivalent_promoter
+OCIAML3,decitabine,0.021479033449610316,14.296,nonbivalent_promoter
+OCIAML3,decitabine:navitoclax (2:1 mol/mol),0.021479033449610316,14.305,nonbivalent_promoter
+OCIAML3,selumetinib:decitabine (4:1 mol/mol),0.021479033449610316,3.5385,nonbivalent_promoter
+OCIAML3,decitabine:carboplatin (1:1 mol/mol),0.021479033449610316,14.508,nonbivalent_promoter
+EOL1,azacitidine,0.025837785665145857,13.326,nonbivalent_promoter
+EOL1,decitabine,0.025837785665145857,2.9783,nonbivalent_promoter
+EOL1,RG-108,0.025837785665145857,11.041,nonbivalent_promoter
+EOL1,decitabine:navitoclax (2:1 mol/mol),0.025837785665145857,2.047,nonbivalent_promoter
+EOL1,selumetinib:decitabine (4:1 mol/mol),0.025837785665145857,3.0543,nonbivalent_promoter
+EOL1,decitabine:carboplatin (1:1 mol/mol),0.025837785665145857,4.3402,nonbivalent_promoter
+CMK,azacitidine,0.018705093221812,14.352,nonbivalent_promoter
+CMK,decitabine,0.018705093221812,8.3546,nonbivalent_promoter
+CMK,RG-108,0.018705093221812,14.363,nonbivalent_promoter
+CMK,decitabine:navitoclax (2:1 mol/mol),0.018705093221812,8.8831,nonbivalent_promoter
+CMK,selumetinib:decitabine (4:1 mol/mol),0.018705093221812,7.5666,nonbivalent_promoter
+CMK,decitabine:carboplatin (1:1 mol/mol),0.018705093221812,9.607,nonbivalent_promoter
+KASUMI1,decitabine,0.0188024619334144,10.129,nonbivalent_promoter
+KASUMI1,RG-108,0.0188024619334144,15.0,nonbivalent_promoter
+KASUMI1,decitabine:navitoclax (2:1 mol/mol),0.0188024619334144,7.1835,nonbivalent_promoter
+KASUMI1,selumetinib:decitabine (4:1 mol/mol),0.0188024619334144,7.8533,nonbivalent_promoter
+KASUMI1,decitabine:carboplatin (1:1 mol/mol),0.0188024619334144,10.405,nonbivalent_promoter
+KO52,azacitidine,0.01681114465339131,14.318,nonbivalent_promoter
+KO52,decitabine,0.01681114465339131,9.9317,nonbivalent_promoter
+KO52,RG-108,0.01681114465339131,12.63,nonbivalent_promoter
+KO52,decitabine:navitoclax (2:1 mol/mol),0.01681114465339131,7.447,nonbivalent_promoter
+KO52,selumetinib:decitabine (4:1 mol/mol),0.01681114465339131,6.4578,nonbivalent_promoter
+KO52,decitabine:carboplatin (1:1 mol/mol),0.01681114465339131,12.689,nonbivalent_promoter
+OCIM1,azacitidine,0.030972279127319875,15.357,nonbivalent_promoter
+OCIM1,decitabine,0.030972279127319875,8.4816,nonbivalent_promoter
+OCIM1,RG-108,0.030972279127319875,13.326,nonbivalent_promoter
+OCIM1,decitabine:navitoclax (2:1 mol/mol),0.030972279127319875,6.6512,nonbivalent_promoter
+OCIM1,selumetinib:decitabine (4:1 mol/mol),0.030972279127319875,8.2996,nonbivalent_promoter
+OCIM1,decitabine:carboplatin (1:1 mol/mol),0.030972279127319875,8.5318,nonbivalent_promoter
+SIGM5,azacitidine,0.02654234546604939,14.913,nonbivalent_promoter
+SIGM5,decitabine,0.02654234546604939,11.247,nonbivalent_promoter
+SIGM5,RG-108,0.02654234546604939,15.316,nonbivalent_promoter
+SIGM5,decitabine:navitoclax (2:1 mol/mol),0.02654234546604939,10.855,nonbivalent_promoter
+SIGM5,selumetinib:decitabine (4:1 mol/mol),0.02654234546604939,3.504,nonbivalent_promoter
+SIGM5,decitabine:carboplatin (1:1 mol/mol),0.02654234546604939,11.596,nonbivalent_promoter
+HEL9217,azacitidine,0.03751994203628175,14.551,nonbivalent_promoter
+HEL9217,decitabine,0.03751994203628175,8.9849,nonbivalent_promoter
+HEL9217,RG-108,0.03751994203628175,12.214,nonbivalent_promoter
+HEL9217,decitabine:navitoclax (2:1 mol/mol),0.03751994203628175,8.0628,nonbivalent_promoter
+HEL9217,selumetinib:decitabine (4:1 mol/mol),0.03751994203628175,9.8485,nonbivalent_promoter
+HEL9217,decitabine:carboplatin (1:1 mol/mol),0.03751994203628175,9.1101,nonbivalent_promoter
+BDCM,decitabine:carboplatin (1:1 mol/mol),0.03385273341445804,14.595,nonbivalent_promoter
+F36P,azacitidine,0.02679259743479927,14.643,nonbivalent_promoter
+F36P,decitabine,0.02679259743479927,10.333,nonbivalent_promoter
+F36P,RG-108,0.02679259743479927,13.158,nonbivalent_promoter
+F36P,decitabine:navitoclax (2:1 mol/mol),0.02679259743479927,8.6734,nonbivalent_promoter
+F36P,selumetinib:decitabine (4:1 mol/mol),0.02679259743479927,7.8079,nonbivalent_promoter
+F36P,decitabine:carboplatin (1:1 mol/mol),0.02679259743479927,11.961,nonbivalent_promoter
+M07E,azacitidine,0.03119427968414541,14.525,nonbivalent_promoter
+M07E,decitabine,0.03119427968414541,8.1452,nonbivalent_promoter
+M07E,RG-108,0.03119427968414541,11.014,nonbivalent_promoter
+M07E,decitabine:navitoclax (2:1 mol/mol),0.03119427968414541,6.6369,nonbivalent_promoter
+M07E,selumetinib:decitabine (4:1 mol/mol),0.03119427968414541,8.1573,nonbivalent_promoter
+M07E,decitabine:carboplatin (1:1 mol/mol),0.03119427968414541,9.5702,nonbivalent_promoter
+AML193,azacitidine,0.017034792578207256,14.293,nonbivalent_promoter
+AML193,decitabine,0.017034792578207256,14.021,nonbivalent_promoter
+AML193,RG-108,0.017034792578207256,15.771,nonbivalent_promoter
+AML193,decitabine:navitoclax (2:1 mol/mol),0.017034792578207256,9.6624,nonbivalent_promoter
+AML193,selumetinib:decitabine (4:1 mol/mol),0.017034792578207256,7.9157,nonbivalent_promoter
+AML193,decitabine:carboplatin (1:1 mol/mol),0.017034792578207256,13.27,nonbivalent_promoter
+P31FUJ,azacitidine,0.03173356270790728,14.112,nonbivalent_promoter_bivslop1000
+P31FUJ,decitabine,0.03173356270790728,9.3377,nonbivalent_promoter_bivslop1000
+P31FUJ,RG-108,0.03173356270790728,12.322,nonbivalent_promoter_bivslop1000
+P31FUJ,decitabine:navitoclax (2:1 mol/mol),0.03173356270790728,6.9774,nonbivalent_promoter_bivslop1000
+P31FUJ,selumetinib:decitabine (4:1 mol/mol),0.03173356270790728,7.1034,nonbivalent_promoter_bivslop1000
+P31FUJ,decitabine:carboplatin (1:1 mol/mol),0.03173356270790728,10.775,nonbivalent_promoter_bivslop1000
+HEL,azacitidine,0.028851411478380204,14.163,nonbivalent_promoter_bivslop1000
+HEL,decitabine,0.028851411478380204,6.8316,nonbivalent_promoter_bivslop1000
+HEL,RG-108,0.028851411478380204,11.864,nonbivalent_promoter_bivslop1000
+HEL,decitabine:navitoclax (2:1 mol/mol),0.028851411478380204,7.298,nonbivalent_promoter_bivslop1000
+HEL,decitabine:carboplatin (1:1 mol/mol),0.028851411478380204,9.5177,nonbivalent_promoter_bivslop1000
+MONOMAC6,decitabine,0.02038653153181187,13.573,nonbivalent_promoter_bivslop1000
+MONOMAC6,RG-108,0.02038653153181187,14.628,nonbivalent_promoter_bivslop1000
+MONOMAC6,decitabine:navitoclax (2:1 mol/mol),0.02038653153181187,11.339,nonbivalent_promoter_bivslop1000
+MONOMAC6,selumetinib:decitabine (4:1 mol/mol),0.02038653153181187,12.174,nonbivalent_promoter_bivslop1000
+ME1,decitabine,0.022184083481927276,13.539,nonbivalent_promoter_bivslop1000
+ME1,RG-108,0.022184083481927276,14.48,nonbivalent_promoter_bivslop1000
+ME1,decitabine:navitoclax (2:1 mol/mol),0.022184083481927276,7.2203,nonbivalent_promoter_bivslop1000
+ME1,selumetinib:decitabine (4:1 mol/mol),0.022184083481927276,8.6657,nonbivalent_promoter_bivslop1000
+ME1,decitabine:carboplatin (1:1 mol/mol),0.022184083481927276,14.09,nonbivalent_promoter_bivslop1000
+NOMO1,azacitidine,0.03488886699538203,14.069,nonbivalent_promoter_bivslop1000
+NOMO1,decitabine,0.03488886699538203,7.8482,nonbivalent_promoter_bivslop1000
+NOMO1,RG-108,0.03488886699538203,10.741,nonbivalent_promoter_bivslop1000
+NOMO1,decitabine:carboplatin (1:1 mol/mol),0.03488886699538203,9.8516,nonbivalent_promoter_bivslop1000
+OCIAML2,azacitidine,0.027749578416619354,12.84,nonbivalent_promoter_bivslop1000
+OCIAML2,decitabine,0.027749578416619354,6.7101,nonbivalent_promoter_bivslop1000
+OCIAML2,RG-108,0.027749578416619354,16.387,nonbivalent_promoter_bivslop1000
+OCIAML2,decitabine:carboplatin (1:1 mol/mol),0.027749578416619354,8.3467,nonbivalent_promoter_bivslop1000
+THP1,azacitidine,0.0221566509218929,12.917,nonbivalent_promoter_bivslop1000
+THP1,decitabine,0.0221566509218929,13.84,nonbivalent_promoter_bivslop1000
+THP1,RG-108,0.0221566509218929,14.878,nonbivalent_promoter_bivslop1000
+THP1,decitabine:navitoclax (2:1 mol/mol),0.0221566509218929,12.107,nonbivalent_promoter_bivslop1000
+THP1,selumetinib:decitabine (4:1 mol/mol),0.0221566509218929,6.6444,nonbivalent_promoter_bivslop1000
+THP1,decitabine:carboplatin (1:1 mol/mol),0.0221566509218929,13.195,nonbivalent_promoter_bivslop1000
+OCIAML3,azacitidine,0.0214526408783997,14.565,nonbivalent_promoter_bivslop1000
+OCIAML3,decitabine,0.0214526408783997,14.296,nonbivalent_promoter_bivslop1000
+OCIAML3,decitabine:navitoclax (2:1 mol/mol),0.0214526408783997,14.305,nonbivalent_promoter_bivslop1000
+OCIAML3,selumetinib:decitabine (4:1 mol/mol),0.0214526408783997,3.5385,nonbivalent_promoter_bivslop1000
+OCIAML3,decitabine:carboplatin (1:1 mol/mol),0.0214526408783997,14.508,nonbivalent_promoter_bivslop1000
+EOL1,azacitidine,0.025533342752189884,13.326,nonbivalent_promoter_bivslop1000
+EOL1,decitabine,0.025533342752189884,2.9783,nonbivalent_promoter_bivslop1000
+EOL1,RG-108,0.025533342752189884,11.041,nonbivalent_promoter_bivslop1000
+EOL1,decitabine:navitoclax (2:1 mol/mol),0.025533342752189884,2.047,nonbivalent_promoter_bivslop1000
+EOL1,selumetinib:decitabine (4:1 mol/mol),0.025533342752189884,3.0543,nonbivalent_promoter_bivslop1000
+EOL1,decitabine:carboplatin (1:1 mol/mol),0.025533342752189884,4.3402,nonbivalent_promoter_bivslop1000
+CMK,azacitidine,0.01858006751268119,14.352,nonbivalent_promoter_bivslop1000
+CMK,decitabine,0.01858006751268119,8.3546,nonbivalent_promoter_bivslop1000
+CMK,RG-108,0.01858006751268119,14.363,nonbivalent_promoter_bivslop1000
+CMK,decitabine:navitoclax (2:1 mol/mol),0.01858006751268119,8.8831,nonbivalent_promoter_bivslop1000
+CMK,selumetinib:decitabine (4:1 mol/mol),0.01858006751268119,7.5666,nonbivalent_promoter_bivslop1000
+CMK,decitabine:carboplatin (1:1 mol/mol),0.01858006751268119,9.607,nonbivalent_promoter_bivslop1000
+KASUMI1,decitabine,0.01853071814437829,10.129,nonbivalent_promoter_bivslop1000
+KASUMI1,RG-108,0.01853071814437829,15.0,nonbivalent_promoter_bivslop1000
+KASUMI1,decitabine:navitoclax (2:1 mol/mol),0.01853071814437829,7.1835,nonbivalent_promoter_bivslop1000
+KASUMI1,selumetinib:decitabine (4:1 mol/mol),0.01853071814437829,7.8533,nonbivalent_promoter_bivslop1000
+KASUMI1,decitabine:carboplatin (1:1 mol/mol),0.01853071814437829,10.405,nonbivalent_promoter_bivslop1000
+KO52,azacitidine,0.016941775800622876,14.318,nonbivalent_promoter_bivslop1000
+KO52,decitabine,0.016941775800622876,9.9317,nonbivalent_promoter_bivslop1000
+KO52,RG-108,0.016941775800622876,12.63,nonbivalent_promoter_bivslop1000
+KO52,decitabine:navitoclax (2:1 mol/mol),0.016941775800622876,7.447,nonbivalent_promoter_bivslop1000
+KO52,selumetinib:decitabine (4:1 mol/mol),0.016941775800622876,6.4578,nonbivalent_promoter_bivslop1000
+KO52,decitabine:carboplatin (1:1 mol/mol),0.016941775800622876,12.689,nonbivalent_promoter_bivslop1000
+OCIM1,azacitidine,0.030571771074231417,15.357,nonbivalent_promoter_bivslop1000
+OCIM1,decitabine,0.030571771074231417,8.4816,nonbivalent_promoter_bivslop1000
+OCIM1,RG-108,0.030571771074231417,13.326,nonbivalent_promoter_bivslop1000
+OCIM1,decitabine:navitoclax (2:1 mol/mol),0.030571771074231417,6.6512,nonbivalent_promoter_bivslop1000
+OCIM1,selumetinib:decitabine (4:1 mol/mol),0.030571771074231417,8.2996,nonbivalent_promoter_bivslop1000
+OCIM1,decitabine:carboplatin (1:1 mol/mol),0.030571771074231417,8.5318,nonbivalent_promoter_bivslop1000
+SIGM5,azacitidine,0.026293216813312932,14.913,nonbivalent_promoter_bivslop1000
+SIGM5,decitabine,0.026293216813312932,11.247,nonbivalent_promoter_bivslop1000
+SIGM5,RG-108,0.026293216813312932,15.316,nonbivalent_promoter_bivslop1000
+SIGM5,decitabine:navitoclax (2:1 mol/mol),0.026293216813312932,10.855,nonbivalent_promoter_bivslop1000
+SIGM5,selumetinib:decitabine (4:1 mol/mol),0.026293216813312932,3.504,nonbivalent_promoter_bivslop1000
+SIGM5,decitabine:carboplatin (1:1 mol/mol),0.026293216813312932,11.596,nonbivalent_promoter_bivslop1000
+HEL9217,azacitidine,0.03652683029748927,14.551,nonbivalent_promoter_bivslop1000
+HEL9217,decitabine,0.03652683029748927,8.9849,nonbivalent_promoter_bivslop1000
+HEL9217,RG-108,0.03652683029748927,12.214,nonbivalent_promoter_bivslop1000
+HEL9217,decitabine:navitoclax (2:1 mol/mol),0.03652683029748927,8.0628,nonbivalent_promoter_bivslop1000
+HEL9217,selumetinib:decitabine (4:1 mol/mol),0.03652683029748927,9.8485,nonbivalent_promoter_bivslop1000
+HEL9217,decitabine:carboplatin (1:1 mol/mol),0.03652683029748927,9.1101,nonbivalent_promoter_bivslop1000
+BDCM,decitabine:carboplatin (1:1 mol/mol),0.03398340606114353,14.595,nonbivalent_promoter_bivslop1000
+F36P,azacitidine,0.026307758610648435,14.643,nonbivalent_promoter_bivslop1000
+F36P,decitabine,0.026307758610648435,10.333,nonbivalent_promoter_bivslop1000
+F36P,RG-108,0.026307758610648435,13.158,nonbivalent_promoter_bivslop1000
+F36P,decitabine:navitoclax (2:1 mol/mol),0.026307758610648435,8.6734,nonbivalent_promoter_bivslop1000
+F36P,selumetinib:decitabine (4:1 mol/mol),0.026307758610648435,7.8079,nonbivalent_promoter_bivslop1000
+F36P,decitabine:carboplatin (1:1 mol/mol),0.026307758610648435,11.961,nonbivalent_promoter_bivslop1000
+M07E,azacitidine,0.030255141555432224,14.525,nonbivalent_promoter_bivslop1000
+M07E,decitabine,0.030255141555432224,8.1452,nonbivalent_promoter_bivslop1000
+M07E,RG-108,0.030255141555432224,11.014,nonbivalent_promoter_bivslop1000
+M07E,decitabine:navitoclax (2:1 mol/mol),0.030255141555432224,6.6369,nonbivalent_promoter_bivslop1000
+M07E,selumetinib:decitabine (4:1 mol/mol),0.030255141555432224,8.1573,nonbivalent_promoter_bivslop1000
+M07E,decitabine:carboplatin (1:1 mol/mol),0.030255141555432224,9.5702,nonbivalent_promoter_bivslop1000
+AML193,azacitidine,0.01646455036869366,14.293,nonbivalent_promoter_bivslop1000
+AML193,decitabine,0.01646455036869366,14.021,nonbivalent_promoter_bivslop1000
+AML193,RG-108,0.01646455036869366,15.771,nonbivalent_promoter_bivslop1000
+AML193,decitabine:navitoclax (2:1 mol/mol),0.01646455036869366,9.6624,nonbivalent_promoter_bivslop1000
+AML193,selumetinib:decitabine (4:1 mol/mol),0.01646455036869366,7.9157,nonbivalent_promoter_bivslop1000
+AML193,decitabine:carboplatin (1:1 mol/mol),0.01646455036869366,13.27,nonbivalent_promoter_bivslop1000
+P31FUJ,azacitidine,0.07822577130904654,14.112,all
+P31FUJ,decitabine,0.07822577130904654,9.3377,all
+P31FUJ,RG-108,0.07822577130904654,12.322,all
+P31FUJ,decitabine:navitoclax (2:1 mol/mol),0.07822577130904654,6.9774,all
+P31FUJ,selumetinib:decitabine (4:1 mol/mol),0.07822577130904654,7.1034,all
+P31FUJ,decitabine:carboplatin (1:1 mol/mol),0.07822577130904654,10.775,all
+HEL,azacitidine,0.07816446338739357,14.163,all
+HEL,decitabine,0.07816446338739357,6.8316,all
+HEL,RG-108,0.07816446338739357,11.864,all
+HEL,decitabine:navitoclax (2:1 mol/mol),0.07816446338739357,7.298,all
+HEL,decitabine:carboplatin (1:1 mol/mol),0.07816446338739357,9.5177,all
+MONOMAC6,decitabine,0.06427447647475557,13.573,all
+MONOMAC6,RG-108,0.06427447647475557,14.628,all
+MONOMAC6,decitabine:navitoclax (2:1 mol/mol),0.06427447647475557,11.339,all
+MONOMAC6,selumetinib:decitabine (4:1 mol/mol),0.06427447647475557,12.174,all
+ME1,decitabine,0.0665449960380468,13.539,all
+ME1,RG-108,0.0665449960380468,14.48,all
+ME1,decitabine:navitoclax (2:1 mol/mol),0.0665449960380468,7.2203,all
+ME1,selumetinib:decitabine (4:1 mol/mol),0.0665449960380468,8.6657,all
+ME1,decitabine:carboplatin (1:1 mol/mol),0.0665449960380468,14.09,all
+NOMO1,azacitidine,0.07666253029407111,14.069,all
+NOMO1,decitabine,0.07666253029407111,7.8482,all
+NOMO1,RG-108,0.07666253029407111,10.741,all
+NOMO1,decitabine:carboplatin (1:1 mol/mol),0.07666253029407111,9.8516,all
+OCIAML2,azacitidine,0.07680079032084074,12.84,all
+OCIAML2,decitabine,0.07680079032084074,6.7101,all
+OCIAML2,RG-108,0.07680079032084074,16.387,all
+OCIAML2,decitabine:carboplatin (1:1 mol/mol),0.07680079032084074,8.3467,all
+THP1,azacitidine,0.05552858842437865,12.917,all
+THP1,decitabine,0.05552858842437865,13.84,all
+THP1,RG-108,0.05552858842437865,14.878,all
+THP1,decitabine:navitoclax (2:1 mol/mol),0.05552858842437865,12.107,all
+THP1,selumetinib:decitabine (4:1 mol/mol),0.05552858842437865,6.6444,all
+THP1,decitabine:carboplatin (1:1 mol/mol),0.05552858842437865,13.195,all
+OCIAML3,azacitidine,0.062433393555084746,14.565,all
+OCIAML3,decitabine,0.062433393555084746,14.296,all
+OCIAML3,decitabine:navitoclax (2:1 mol/mol),0.062433393555084746,14.305,all
+OCIAML3,selumetinib:decitabine (4:1 mol/mol),0.062433393555084746,3.5385,all
+OCIAML3,decitabine:carboplatin (1:1 mol/mol),0.062433393555084746,14.508,all
+EOL1,azacitidine,0.07411225919639093,13.326,all
+EOL1,decitabine,0.07411225919639093,2.9783,all
+EOL1,RG-108,0.07411225919639093,11.041,all
+EOL1,decitabine:navitoclax (2:1 mol/mol),0.07411225919639093,2.047,all
+EOL1,selumetinib:decitabine (4:1 mol/mol),0.07411225919639093,3.0543,all
+EOL1,decitabine:carboplatin (1:1 mol/mol),0.07411225919639093,4.3402,all
+CMK,azacitidine,0.05092556130600876,14.352,all
+CMK,decitabine,0.05092556130600876,8.3546,all
+CMK,RG-108,0.05092556130600876,14.363,all
+CMK,decitabine:navitoclax (2:1 mol/mol),0.05092556130600876,8.8831,all
+CMK,selumetinib:decitabine (4:1 mol/mol),0.05092556130600876,7.5666,all
+CMK,decitabine:carboplatin (1:1 mol/mol),0.05092556130600876,9.607,all
+KASUMI1,decitabine,0.05378550690143384,10.129,all
+KASUMI1,RG-108,0.05378550690143384,15.0,all
+KASUMI1,decitabine:navitoclax (2:1 mol/mol),0.05378550690143384,7.1835,all
+KASUMI1,selumetinib:decitabine (4:1 mol/mol),0.05378550690143384,7.8533,all
+KASUMI1,decitabine:carboplatin (1:1 mol/mol),0.05378550690143384,10.405,all
+KO52,azacitidine,0.056569478246886414,14.318,all
+KO52,decitabine,0.056569478246886414,9.9317,all
+KO52,RG-108,0.056569478246886414,12.63,all
+KO52,decitabine:navitoclax (2:1 mol/mol),0.056569478246886414,7.447,all
+KO52,selumetinib:decitabine (4:1 mol/mol),0.056569478246886414,6.4578,all
+KO52,decitabine:carboplatin (1:1 mol/mol),0.056569478246886414,12.689,all
+OCIM1,azacitidine,0.0855335860706908,15.357,all
+OCIM1,decitabine,0.0855335860706908,8.4816,all
+OCIM1,RG-108,0.0855335860706908,13.326,all
+OCIM1,decitabine:navitoclax (2:1 mol/mol),0.0855335860706908,6.6512,all
+OCIM1,selumetinib:decitabine (4:1 mol/mol),0.0855335860706908,8.2996,all
+OCIM1,decitabine:carboplatin (1:1 mol/mol),0.0855335860706908,8.5318,all
+SIGM5,azacitidine,0.06008427311278047,14.913,all
+SIGM5,decitabine,0.06008427311278047,11.247,all
+SIGM5,RG-108,0.06008427311278047,15.316,all
+SIGM5,decitabine:navitoclax (2:1 mol/mol),0.06008427311278047,10.855,all
+SIGM5,selumetinib:decitabine (4:1 mol/mol),0.06008427311278047,3.504,all
+SIGM5,decitabine:carboplatin (1:1 mol/mol),0.06008427311278047,11.596,all
+HEL9217,azacitidine,0.08983200803518658,14.551,all
+HEL9217,decitabine,0.08983200803518658,8.9849,all
+HEL9217,RG-108,0.08983200803518658,12.214,all
+HEL9217,decitabine:navitoclax (2:1 mol/mol),0.08983200803518658,8.0628,all
+HEL9217,selumetinib:decitabine (4:1 mol/mol),0.08983200803518658,9.8485,all
+HEL9217,decitabine:carboplatin (1:1 mol/mol),0.08983200803518658,9.1101,all
+BDCM,decitabine:carboplatin (1:1 mol/mol),0.07816656111462951,14.595,all
+F36P,azacitidine,0.07745315765900268,14.643,all
+F36P,decitabine,0.07745315765900268,10.333,all
+F36P,RG-108,0.07745315765900268,13.158,all
+F36P,decitabine:navitoclax (2:1 mol/mol),0.07745315765900268,8.6734,all
+F36P,selumetinib:decitabine (4:1 mol/mol),0.07745315765900268,7.8079,all
+F36P,decitabine:carboplatin (1:1 mol/mol),0.07745315765900268,11.961,all
+M07E,azacitidine,0.08676483332939407,14.525,all
+M07E,decitabine,0.08676483332939407,8.1452,all
+M07E,RG-108,0.08676483332939407,11.014,all
+M07E,decitabine:navitoclax (2:1 mol/mol),0.08676483332939407,6.6369,all
+M07E,selumetinib:decitabine (4:1 mol/mol),0.08676483332939407,8.1573,all
+M07E,decitabine:carboplatin (1:1 mol/mol),0.08676483332939407,9.5702,all
+AML193,azacitidine,0.049186958098185865,14.293,all
+AML193,decitabine,0.049186958098185865,14.021,all
+AML193,RG-108,0.049186958098185865,15.771,all
+AML193,decitabine:navitoclax (2:1 mol/mol),0.049186958098185865,9.6624,all
+AML193,selumetinib:decitabine (4:1 mol/mol),0.049186958098185865,7.9157,all
+AML193,decitabine:carboplatin (1:1 mol/mol),0.049186958098185865,13.27,all

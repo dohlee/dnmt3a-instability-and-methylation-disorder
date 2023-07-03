@@ -1,0 +1,283 @@
+import os
+import glob
+import pandas as pd
+
+meta = pd.read_excel('metadata.xlsx', sheet_name='Li2016')
+run2status = {r['run_rrbs']:r['status'] for r in meta.to_records()}
+
+samples = pd.read_csv('manifest.csv')['name'].values
+
+wt_samples = [s for s, v in run2status.items() if v == 'WT']
+ins_samples = [s for s, v in run2status.items() if v == 'INS']
+r882_samples = [s for s, v in run2status.items() if v == 'R882']
+other_samples = [s for s, v in run2status.items() if v == 'Other']
+
+
+print('There are %d INS samples.' % len(ins_samples))
+print('There are %d R882 samples.' % len(r882_samples))
+print('There are %d Other samples.' % len(other_samples))
+print('There are %d WT samples.' % len(wt_samples))
+
+print('R882 ', r882_samples)
+
+nbm_samples = []
+for sample in samples:
+    if sample not in run2status:
+        run2status[sample] = 'NBM'
+        nbm_samples.append(sample)
+
+print('There are %d NBM samples.' % len(nbm_samples))
+
+print('NBM ', nbm_samples)
+
+rule all:
+    input:
+        # DMRs between INS and NBM samples.
+        'result/INS_vs_NBM.metilene.dmr.tsv',
+
+        # DMRs between WT and NBM samples.
+        'result/WT_vs_NBM.metilene.dmr.tsv',
+
+        # DMRs between Other and NBM samples.
+        'result/Other_vs_NBM.metilene.dmr.tsv',
+
+        # DMRs between R882 and NBM samples.
+        'result/R882_vs_NBM.metilene.dmr.tsv',
+
+        # DMRs between INS and WT samples.
+        'result/INS_vs_WT.metilene.dmr.tsv',
+
+        # DMRs between R882 and WT samples.
+        'result/R882_vs_WT.metilene.dmr.tsv',
+
+        'result/INS_vs_NBM.metilene.dmc.tsv',
+        'result/WT_vs_NBM.metilene.dmc.tsv',
+        'result/Other_vs_NBM.metilene.dmc.tsv',
+        'result/R882_vs_NBM.metilene.dmc.tsv',
+        'result/INS_vs_WT.metilene.dmc.tsv',
+
+        expand('result/{sample}_vs_NBM.metilene.dmc.tsv', sample=samples)
+
+rule preprocess_bdg:
+    input:
+        'data/{run}.all.bedGraph' 
+    output:
+        'data/{run}.all.processed.bedGraph'
+    shell:
+        "awk 'BEGIN {{ FS=OFS=\"\t\" }} {{ if ($5 + $6 >= 10) {{ print $1,$2,$3,$5/($5+$6) }} }}' {input} > {output}"
+
+rule bedtools_unionbedg_per_sample:
+    input:
+        lambda wildcards: expand('data/{run}.all.processed.bedGraph', run=[wildcards.sample] + nbm_samples)
+    output:
+        temp('input_data/{sample}_vs_nbm.metilene_input.d10.bedGraph')
+    resources: io = 1
+    params:
+        sample = lambda wildcards: f'SAMPLE_{wildcards.sample}',
+        nbm_samples = lambda wildcards: ' '.join(['NBM_' + sample for sample in nbm_samples]),
+    shell:
+        'bedtools unionbedg -i {input} -header -names {params.sample} {params.nbm_samples} -filler NA > {output}' 
+
+rule metilene_dmc_per_sample:
+    input:
+        'input_data/{sample}_vs_nbm.metilene_input.d10.bedGraph'
+    output: 
+        'result/{sample}_vs_NBM.metilene.dmc.tsv',
+    resources: io = 1
+    threads: 4
+    shell:
+        # --mtc 2 for Benjamini-Hochberg
+        'metilene_v0.2-8/metilene_linux64 --mode 3 -a SAMPLE -b NBM -t {threads} --mtc 2 --seed 42 --minMethDiff 0.0 {input} > {output}'
+
+rule bedtools_unionbedg_INS_vs_WT:
+    input:
+        expand('data/{run}.all.processed.bedGraph', run=ins_samples + wt_samples)
+    output:
+        'input_data/ins_vs_wt.metilene_input.d10.bedGraph'
+    resources: io = 1
+    params:
+        ins_samples = lambda wildcards: ' '.join(['INS_' + sample for sample in ins_samples]),
+        wt_samples = lambda wildcards: ' '.join(['WT_' + sample for sample in wt_samples]),
+    shell:
+        'bedtools unionbedg -i {input} -header -names {params.ins_samples} {params.wt_samples} -filler NA > {output}' 
+
+rule bedtools_unionbedg_R882_vs_WT:
+    input:
+        expand('data/{run}.all.processed.bedGraph', run=r882_samples + wt_samples)
+    output:
+        'input_data/r882_vs_wt.metilene_input.d10.bedGraph'
+    resources: io = 1
+    params:
+        r882_samples = lambda wildcards: ' '.join(['R882_' + sample for sample in r882_samples]),
+        wt_samples = lambda wildcards: ' '.join(['WT_' + sample for sample in wt_samples]),
+    shell:
+        'bedtools unionbedg -i {input} -header -names {params.r882_samples} {params.wt_samples} -filler NA > {output}' 
+
+rule bedtools_unionbedg_INS_vs_NBM:
+    input:
+        expand('data/{run}.all.processed.bedGraph', run=ins_samples + nbm_samples)
+    output:
+        'input_data/ins_vs_nbm.metilene_input.d10.bedGraph'
+    resources: io = 1
+    params:
+        ins_samples = lambda wildcards: ' '.join(['INS_' + sample for sample in ins_samples]),
+        nbm_samples = lambda wildcards: ' '.join(['NBM_' + sample for sample in nbm_samples]),
+    shell:
+        'bedtools unionbedg -i {input} -header -names {params.ins_samples} {params.nbm_samples} -filler NA > {output}' 
+
+rule bedtools_unionbedg_WT_vs_NBM:
+    input:
+        expand('data/{run}.all.processed.bedGraph', run=wt_samples + nbm_samples)
+    output:
+        'input_data/wt_vs_nbm.metilene_input.d10.bedGraph'
+    resources: io = 1
+    params:
+        wt_samples = lambda wildcards: ' '.join(['WT_' + sample for sample in wt_samples]),
+        nbm_samples = lambda wildcards: ' '.join(['NBM_' + sample for sample in nbm_samples]),
+    shell:
+        'bedtools unionbedg -i {input} -header -names {params.wt_samples} {params.nbm_samples} -filler NA > {output}' 
+
+rule bedtools_unionbedg_Other_vs_NBM:
+    input:
+        expand('data/{run}.all.processed.bedGraph', run=other_samples + nbm_samples)
+    output:
+        'input_data/other_vs_nbm.metilene_input.d10.bedGraph'
+    resources: io = 1
+    params:
+        other_samples = lambda wildcards: ' '.join(['Other_' + sample for sample in other_samples]),
+        nbm_samples = lambda wildcards: ' '.join(['NBM_' + sample for sample in nbm_samples]),
+    shell:
+        'bedtools unionbedg -i {input} -header -names {params.other_samples} {params.nbm_samples} -filler NA > {output}' 
+
+rule bedtools_unionbedg_R882_vs_NBM:
+    input:
+        expand('data/{run}.all.processed.bedGraph', run=r882_samples + nbm_samples)
+    output:
+        'input_data/r882_vs_nbm.metilene_input.d10.bedGraph'
+    resources: io = 1
+    params:
+        r882_samples = lambda wildcards: ' '.join(['R882_' + sample for sample in r882_samples]),
+        nbm_samples = lambda wildcards: ' '.join(['NBM_' + sample for sample in nbm_samples]),
+    shell:
+        'bedtools unionbedg -i {input} -header -names {params.r882_samples} {params.nbm_samples} -filler NA > {output}' 
+
+rule metilene_dmr_INS:
+    input:
+        'input_data/ins_vs_nbm.metilene_input.d10.bedGraph'
+    output: 
+        'result/INS_vs_NBM.metilene.dmr.tsv',
+    resources: io = 1
+    threads: 4
+    shell:
+        # --mtc 2 for Benjamini-Hochberg
+        'metilene_v0.2-8/metilene_linux64 -a INS -b NBM -t {threads} --mtc 2 --seed 42 --maxdist 500 --mincpgs 4 --minMethDiff 0.2 {input} > {output}'
+
+rule metilene_dmr_INS_vs_WT:
+    input:
+        'input_data/ins_vs_wt.metilene_input.d10.bedGraph'
+    output: 
+        'result/INS_vs_WT.metilene.dmr.tsv',
+    resources: io = 1
+    threads: 4
+    shell:
+        # --mtc 2 for Benjamini-Hochberg
+        'metilene_v0.2-8/metilene_linux64 -a INS -b WT -t {threads} --mtc 2 --seed 42 --maxdist 500 --mincpgs 4 --minMethDiff 0.2 {input} > {output}'
+
+rule metilene_dmr_R882_vs_WT:
+    input:
+        'input_data/r882_vs_wt.metilene_input.d10.bedGraph'
+    output: 
+        'result/R882_vs_WT.metilene.dmr.tsv',
+    resources: io = 1
+    threads: 4
+    shell:
+        # --mtc 2 for Benjamini-Hochberg
+        'metilene_v0.2-8/metilene_linux64 -a R882 -b WT -t {threads} --mtc 2 --seed 42 --maxdist 500 --mincpgs 4 --minMethDiff 0.2 {input} > {output}'
+
+rule metilene_dmr_WT:
+    input:
+        'input_data/wt_vs_nbm.metilene_input.d10.bedGraph'
+    output: 
+        'result/WT_vs_NBM.metilene.dmr.tsv',
+    resources: io = 1
+    threads: 4
+    shell:
+        # --mtc 2 for Benjamini-Hochberg
+        'metilene_v0.2-8/metilene_linux64 -a WT -b NBM -t {threads} --mtc 2 --seed 42 --maxdist 500 --mincpgs 4 --minMethDiff 0.2 {input} > {output}'
+
+rule metilene_dmr_Other:
+    input:
+        'input_data/other_vs_nbm.metilene_input.d10.bedGraph'
+    output: 
+        'result/Other_vs_NBM.metilene.dmr.tsv',
+    resources: io = 1
+    threads: 4
+    shell:
+        # --mtc 2 for Benjamini-Hochberg
+        'metilene_v0.2-8/metilene_linux64 -a Other -b NBM -t {threads} --mtc 2 --seed 42 --maxdist 500 --mincpgs 4 --minMethDiff 0.2 {input} > {output}'
+
+rule metilene_dmr_R882:
+    input:
+        'input_data/r882_vs_nbm.metilene_input.d10.bedGraph'
+    output: 
+        'result/R882_vs_NBM.metilene.dmr.tsv',
+    resources: io = 1
+    threads: 4
+    shell:
+        # --mtc 2 for Benjamini-Hochberg
+        'metilene_v0.2-8/metilene_linux64 -a R882 -b NBM -t {threads} --mtc 2 --seed 42 --maxdist 500 --mincpgs 4 --minMethDiff 0.2 {input} > {output}'
+
+rule metilene_dmc_INS:
+    input:
+        'input_data/ins_vs_nbm.metilene_input.d10.bedGraph'
+    output: 
+        'result/INS_vs_NBM.metilene.dmc.tsv',
+    resources: io = 1
+    threads: 4
+    shell:
+        # --mtc 2 for Benjamini-Hochberg
+        'metilene_v0.2-8/metilene_linux64 --mode 3 -a INS -b NBM -t {threads} --mtc 2 --seed 42 --minMethDiff 0.0 {input} > {output}'
+
+rule metilene_dmc_INS_vs_WT:
+    input:
+        'input_data/ins_vs_wt.metilene_input.d10.bedGraph'
+    output: 
+        'result/INS_vs_WT.metilene.dmc.tsv',
+    resources: io = 1
+    threads: 4
+    shell:
+        # --mtc 2 for Benjamini-Hochberg
+        'metilene_v0.2-8/metilene_linux64 --mode 3 -a INS -b WT -t {threads} --mtc 2 --seed 42 --minMethDiff 0.0 {input} > {output}'
+
+rule metilene_dmc_WT:
+    input:
+        'input_data/wt_vs_nbm.metilene_input.d10.bedGraph'
+    output: 
+        'result/WT_vs_NBM.metilene.dmc.tsv',
+    resources: io = 1
+    threads: 4
+    shell:
+        # --mtc 2 for Benjamini-Hochberg
+        'metilene_v0.2-8/metilene_linux64 --mode 3 -a WT -b NBM -t {threads} --mtc 2 --seed 42 --minMethDiff 0.0 {input} > {output}'
+
+rule metilene_dmc_Other:
+    input:
+        'input_data/other_vs_nbm.metilene_input.d10.bedGraph'
+    output: 
+        'result/Other_vs_NBM.metilene.dmc.tsv',
+    resources: io = 1
+    threads: 4
+    shell:
+        # --mtc 2 for Benjamini-Hochberg
+        'metilene_v0.2-8/metilene_linux64 --mode 3 -a Other -b NBM -t {threads} --mtc 2 --seed 42 --minMethDiff 0.0 {input} > {output}'
+
+rule metilene_dmc_R882:
+    input:
+        'input_data/r882_vs_nbm.metilene_input.d10.bedGraph'
+    output: 
+        'result/R882_vs_NBM.metilene.dmc.tsv',
+    resources: io = 1
+    threads: 4
+    shell:
+        # --mtc 2 for Benjamini-Hochberg
+        'metilene_v0.2-8/metilene_linux64 --mode 3 -a R882 -b NBM -t {threads} --mtc 2 --seed 42 --minMethDiff 0.0 {input} > {output}'
