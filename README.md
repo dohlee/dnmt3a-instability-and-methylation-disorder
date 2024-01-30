@@ -21,7 +21,7 @@ $ snakemake -s download_nbm_errbs.smk -pr -j[CORES] --network 1
 
 **li2016-errbs-processing** *(~1 week)*
 
-*Related to Fig. 1, 2, 3, 4 Supplementary Fig. 2, 4, 5, 6, 7*
+*Related to Fig. 1, 2, 3, 4 Supplementary Fig. 3, 5, 6, 7, 8, 9, 10, 11*
 
 *Requires a symlink to FASTQ files (from `li2016-errbs-fetch`) in a sub-directory named `data`*
 
@@ -36,7 +36,7 @@ $ snakemake -pr -j[CORES]
 
 **li2016-methylation-heterogeneity-calculation** *(<6 hours)*
 
-*Related to Fig. 1, 3, 4 and Supplementary Fig. 2*
+*Related to Fig. 1, 3, 4 and Supplementary Fig. 3, 10*
 
 *Requires a symlink to BAMs and BAM indices (from `li2016-errbs-processing`) in a sub-directory named `bams`*
 
@@ -50,7 +50,7 @@ $ snakemake -pr -j[CORES]
 
 **li2016-dmr-calling** *(<2 hours)*
 
-*Related to Fig. 2, 3 and Supplementary Fig. 5, 6*
+*Related to Fig. 2, 3 and Supplementary Fig. 5, 6, 7, 8, 9*
 
 *Requires a symlink to methylation level bedGraph files (from `li2016-errbs-processing`) in a sub-directory named `data`*
 
@@ -64,7 +64,7 @@ $ snakemake -pr -j[CORES]
 
 **li2016-pileup-methlevel-around-dmr** *(<2 hours)*
 
-*Related to Fig. 2, 3 and Supplementary Fig. 5*
+*Related to Fig. 2, 3 and Supplementary Fig. 5, 7*
 
 *Requires a symlink to methylation level bedGraph files (from `li2016-errbs-processing`) in a sub-directory named `data`*
 
